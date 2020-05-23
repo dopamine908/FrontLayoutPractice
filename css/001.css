@@ -1,0 +1,15 @@
+.container {
+    width: 90%;
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+    position: relative;
+    top: 50px;
+}
+
+.item {
+    flex-basis: 23%;
+    height: 200px;
+    background-color: lightsalmon;
+    margin: 3px;
+}
