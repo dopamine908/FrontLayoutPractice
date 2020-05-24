@@ -1,0 +1,44 @@
+.container {
+    display: flex;
+}
+
+.left {
+    background-color: gainsboro;
+    border-right: solid black 1px;
+    height: 800px;
+    flex: 1;
+    position: relative;
+}
+
+.left .circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: dimgray;
+    margin: 25% auto 10px;
+}
+
+.left .under-circle {
+    width: 70%;
+    height: 30px;
+    background-color: dimgray;
+    margin: 20px auto;
+}
+
+.right {
+    background-color: gainsboro;
+    height: 800px;
+    flex: 1;
+}
+
+h1 {
+    font-size: 32px;
+    text-align: center;
+    margin-top: 25%;
+}
+
+p {
+    width: 90%;
+    font-size: 20px;
+    margin: 10px auto;
+}
