@@ -1,0 +1,31 @@
+.container {
+    width: 90%;
+    height: auto;
+    max-height: 700px;
+    display: flex;
+    background-color: gainsboro;
+    margin: auto;
+}
+
+.container .sidebar {
+    width: 200px;
+    font-size: 28px;
+    padding: 10px 20px;
+    border-right: solid black 1px;
+}
+
+li {
+    padding: 10px 0px;
+    border-bottom: solid black 1px;
+}
+
+.container .content {
+    flex-grow: 1;
+    overflow-y: scroll;
+}
+
+p {
+    font-size: 20px;
+    padding: 10px;
+    margin: 10px 20px;
+}
