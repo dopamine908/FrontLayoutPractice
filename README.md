@@ -2,6 +2,7 @@
 
 ## Layout
 
-- 000 - [Link](https://dopamine908.github.io/FrontLayoutPractice/html/000.html)
-- 001 - [Link](https://dopamine908.github.io/FrontLayoutPractice/html/001.html)
+- [000](https://dopamine908.github.io/FrontLayoutPractice/html/000.html)
+- [001](https://dopamine908.github.io/FrontLayoutPractice/html/001.html)
+- [002](https://dopamine908.github.io/FrontLayoutPractice/html/003.html)
 

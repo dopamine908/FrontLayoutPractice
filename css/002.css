@@ -1,0 +1,31 @@
+.nav {
+    width: 100%;
+    height: 100px;
+    background-color: lightsalmon;
+}
+
+.contain {
+    width: 100%;
+    height: 1000px;
+    background-color: blanchedalmond;
+    display: flex;
+    flex-direction: row;
+}
+
+.contain .side {
+    height: 100%;
+    background-color: darkgray;
+    width: 200px;
+}
+
+.contain .center {
+    flex-grow: 1;
+    height: 100%;
+    background-color: dimgray;
+}
+
+.footer {
+    width: 100%;
+    height: 100px;
+    background-color: lightblue;
+}
