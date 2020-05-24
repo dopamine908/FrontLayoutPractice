@@ -1,0 +1,39 @@
+section {
+    width: 90%;
+    height: auto;
+    margin: 50px auto;
+}
+
+section .container {
+    width: 100%;
+    height: 70px;
+    margin: 10px;
+    background-color: gainsboro;
+    display: flex;
+}
+
+.item {
+    height: 60px;
+    margin: 5px;
+    background-color: silver;
+}
+
+.col-3 {
+    flex: 25%;
+}
+
+.col-4 {
+    flex: 33.333%;
+}
+
+.col-5 {
+    flex: 41.666;
+}
+
+.col-6 {
+    flex: 50%;
+}
+
+.col-8 {
+    flex: 66.666%;
+}
