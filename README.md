@@ -9,4 +9,5 @@
 - [004](https://dopamine908.github.io/FrontLayoutPractice/html/004.html)
 - [005](https://dopamine908.github.io/FrontLayoutPractice/html/005.html)
 - [006](https://dopamine908.github.io/FrontLayoutPractice/html/006.html)
-- [007](https://dopamine908.github.io/FrontLayoutPractice/html/007.html)
+- [007](https://dopamine908.github.io/F\rontLayoutPractice/html/007.html)
+- [008](https://dopamine908.github.io/F\rontLayoutPractice/html/008.html)
