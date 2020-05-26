@@ -1,0 +1,22 @@
+.container {
+    background-color: gainsboro;
+    margin-top: 200px;
+    display: flex;
+}
+
+.breadcrumb {
+    display: block;
+    font-size: 50px;
+    margin: 0 auto;
+    background-color: silver;
+}
+
+.breadcrumb-splash {
+    margin: 0 10px;
+    display: inline-block;
+}
+
+.breadcrumb-item {
+    display: inline-block;
+}
+
