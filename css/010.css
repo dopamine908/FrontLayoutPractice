@@ -1,0 +1,70 @@
+.container {
+    margin-top: 200px;
+}
+
+.btn {
+    background-color: lightblue;
+    width: 45px;
+    height: 45px;
+    border-radius: 10%;
+    text-align: center;
+    position: relative;
+    margin: 0 auto;
+}
+
+.btn-item {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: aquamarine;
+    position: absolute;
+    top: 0;
+}
+
+.item1 {
+    transform: rotate(0deg) translateX(90px);
+}
+
+.item2 {
+    transform: rotate(-60deg) translateX(90px);
+}
+
+.item3 {
+    transform: rotate(-120deg) translateX(90px);
+}
+
+.item4 {
+    transform: rotate(-180deg) translateX(90px);
+}
+
+.item5 {
+    transform: rotate(-240deg) translateX(90px);
+}
+
+.item6 {
+    transform: rotate(-300deg) translateX(90px);
+}
+
+.item-text{
+    align-items: center;
+    justify-content: center;
+}
+.item-text1{
+    transform: rotate(0deg)
+}
+.item-text2{
+    transform: rotate(60deg)
+}
+.item-text3{
+    transform: rotate(120deg)
+}
+.item-text4{
+    transform: rotate(180deg)
+}
+.item-text5{
+    transform: rotate(240deg)
+}
+.item-text6{
+    transform: rotate(300deg)
+}
