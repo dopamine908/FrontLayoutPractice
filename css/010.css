@@ -10,6 +10,9 @@
     text-align: center;
     position: relative;
     margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .btn-item {
@@ -20,6 +23,9 @@
     background-color: aquamarine;
     position: absolute;
     top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .item1 {
@@ -46,25 +52,26 @@
     transform: rotate(-300deg) translateX(90px);
 }
 
-.item-text{
-    align-items: center;
-    justify-content: center;
-}
-.item-text1{
+.item-text1 {
     transform: rotate(0deg)
 }
-.item-text2{
+
+.item-text2 {
     transform: rotate(60deg)
 }
-.item-text3{
+
+.item-text3 {
     transform: rotate(120deg)
 }
-.item-text4{
+
+.item-text4 {
     transform: rotate(180deg)
 }
-.item-text5{
+
+.item-text5 {
     transform: rotate(240deg)
 }
-.item-text6{
+
+.item-text6 {
     transform: rotate(300deg)
 }
