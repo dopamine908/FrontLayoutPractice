@@ -1,0 +1,27 @@
+.container {
+    margin-top: 200px;
+    background-color: white;
+}
+
+.dot-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dot {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin: 0 10px;
+    cursor: pointer;
+}
+
+.clicked {
+    background-color: silver;
+}
+
+.not-click {
+    background-color: white;
+    border: 1px gray solid;
+}
