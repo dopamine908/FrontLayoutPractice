@@ -1,0 +1,32 @@
+nav {
+    height: 80px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+
+.nav-item {
+    color: white;
+    font-size: 32px;
+    padding: 20px 40px;
+    cursor: pointer;
+}
+
+.nav-item:hover {
+    background-color: dimgray;
+    transition: 0.5s;
+}
+
+.dropdown:hover .dropdown-content {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    width: 100vw;
+    height: 400px;
+    background-color: lightblue;
+    position: absolute;
+    left: 0;
+    top: 80px;
+}
