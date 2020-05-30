@@ -1,0 +1,55 @@
+.menu {
+    width: 400px;
+    margin: 100px auto auto;
+    border: solid 1px gray;
+    border-radius: 10px;
+    background-color: #F4F4F4;
+}
+
+.item {
+    font-size: 32px;
+    padding: 10px 20px;
+    display: flex;
+}
+
+.item:hover {
+    background-color: gray;
+    transition: 0.5s;
+    color: #F4F4F4;
+}
+
+.two-side {
+    justify-content: space-between;
+}
+
+.left-grow {
+    flex-grow: 1;
+}
+
+.left-group {
+    flex-grow: 1;
+    display: flex;
+}
+
+.middle-grow {
+    flex-grow: 1;
+}
+
+.left {
+    padding: 5px 10px;
+    background-color: lightsalmon;
+}
+
+.middle {
+    padding: 5px 10px;
+    background-color: lightblue;
+}
+
+.right {
+    padding: 5px 10px;
+    background-color: lightgreen;
+}
+
+.upper-border {
+    border-top: solid 1px black;
+}
