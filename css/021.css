@@ -1,0 +1,23 @@
+.container {
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.step-item {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: dimgray;
+    color: #F4F4F4;
+}
+
+.step-slash {
+    width: 200px;
+    height: 1px;
+    background-color: dimgray;
+}
