@@ -1,0 +1,45 @@
+.container {
+    margin-top: 200px;
+    display: flex;
+}
+
+.flex-always-center {
+    align-items: center;
+    justify-content: center;
+}
+
+.tab-panel {
+    display: flex;
+    position: relative;
+}
+
+.tab {
+    font-size: 28px;
+    margin: 5px 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+.tab-panel-child {
+    width: 700px;
+    height: 400px;
+    background-color: #F4F4F4;
+    color: dimgray;
+    font-size: 50px;
+    display: flex;
+    position: absolute;
+}
+
+.child-b{
+    left: 0;
+}
+
+.child-c{
+    left: 0;
+}
+
+.tab-b:checked .child-b{
+    z-index: 9999;
+}
