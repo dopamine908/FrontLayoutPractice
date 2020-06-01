@@ -1,0 +1,42 @@
+.hidden {
+    display: none;
+}
+
+.custom-checkbox {
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+label {
+    cursor: pointer;
+    display: flex;
+}
+
+.outer {
+    margin: 0 5px;
+    width: 16px;
+    height: 16px;
+    border-radius: 3px;
+    border: dimgray solid 1px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.inner {
+    width: 10px;
+    height: 10px;
+    border-radius: 3px;
+    background-color: dimgray;
+}
+
+/*input:checked +.inner{*/
+/*    display: none;*/
+/*}*/
+
+input[type="checkbox"]:checked + .outer.inner {
+    /*box-shadow: 0 0 0 3px hotpink;*/
+    display: none;
+}
