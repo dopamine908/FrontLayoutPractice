@@ -1,0 +1,34 @@
+.container{
+    margin-top: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.chip{
+    width: 150px;
+    height: 60px;
+    border-radius: 30px;
+    background-color: #F4F4F4;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.text-content{
+    padding: 5px 10px;
+}
+
+.cancel{
+    padding: 1px;
+    width: 30px;
+    height: 30px;
+    background-color: darkgray;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
