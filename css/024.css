@@ -32,11 +32,6 @@ label {
     background-color: dimgray;
 }
 
-/*input:checked +.inner{*/
-/*    display: none;*/
-/*}*/
-
-input[type="checkbox"]:checked + .outer.inner {
-    /*box-shadow: 0 0 0 3px hotpink;*/
+.input-checkbox:checked + .outer .inner {
     display: none;
 }
