@@ -35,12 +35,10 @@ label {
 .radio {
     display: flex;
     margin: 10px;
+    width: 250px;
+    align-items: flex-start;
 }
 
-#r3:checked + label{
+input[type="radio"]:checked + .outer .inner{
     background-color: lightcoral;
-}
-
-input[type="radio"]:checked .outer .inner{
-    background-color: brown;
 }
