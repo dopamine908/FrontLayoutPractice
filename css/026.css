@@ -1,0 +1,36 @@
+body {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    width: 300px;
+    height: 60px;
+    font-size: 32px;
+}
+
+.floating-label {
+    display: none;
+}
+
+input:focus {
+    background-color: #F4F4F4;
+}
+
+input:focus + .floating-label {
+    width: 80px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    background-color: #F4F4F4;
+    position: absolute;
+    left: 10px;
+    top: -15px;
+}
+
+.input-field {
+    position: relative;
+}

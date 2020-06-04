@@ -28,3 +28,4 @@
 - [023 - Chip](https://dopamine908.github.io/FrontLayoutPractice/html/023.html) 
 - [024 - Custom checkbox button](https://dopamine908.github.io/FrontLayoutPractice/html/024.html)
 - [025 - Custom radio button](https://dopamine908.github.io/FrontLayoutPractice/html/025.html)
+- [026 - Floating label](https://dopamine908.github.io/FrontLayoutPractice/html/026.html)
