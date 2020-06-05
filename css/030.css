@@ -1,0 +1,23 @@
+.container {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.p-rating {
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+}
+
+.p-rating-star {
+    font-size: 32px;
+    padding: 4px;
+    cursor: pointer;
+}
+
+.p-rating-star:hover, .p-rating-star:hover ~ .p-rating-star:before {
+    color: red;
+    content: '\2605';
+    position: absolute;
+}
