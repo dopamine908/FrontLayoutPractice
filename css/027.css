@@ -1,0 +1,43 @@
+.container {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.input-field {
+    margin: 20px 10px;
+    width: 200px;
+    height: 40px;
+    display: flex;
+}
+
+input {
+    width: 140px;
+    height: 30px;
+}
+
+.label-for-input1 {
+    width: 60px;
+    height: 36px;
+    background-color: dimgray;
+}
+
+.label-for-input2 {
+    width: 60px;
+    height: 36px;
+    background-color: dimgray;
+}
+
+.label-for-input2-front {
+    width: 20px;
+    height: 36px;
+    background-color: dimgray;
+}
+
+.label-for-input2-end {
+    width: 40px;
+    height: 36px;
+    background-color: dimgray;
+}
