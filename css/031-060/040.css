@@ -1,0 +1,24 @@
+.container {
+    margin-top: 200px;
+    display: flex;
+    justify-content: center
+}
+
+.region {
+    width: 200px;
+    height: 60px;
+    border-radius: 5px;
+    border: dimgray 1px solid;
+    background-color: #F4F4F4;
+    position: relative;
+}
+
+.pin-right-top {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: cornflowerblue;
+    position: absolute;
+    right: -15px;
+    top: -15px;
+}
