@@ -38,3 +38,4 @@
 - [033 - Stepper input](https://dopamine908.github.io/FrontLayoutPractice/html/031-060/033.html) 
 - [034 - Switch](https://dopamine908.github.io/FrontLayoutPractice/html/031-060/034.html) ???
 - [035 - Toggle password visibility](https://dopamine908.github.io/FrontLayoutPractice/html/031-060/035.html) ???
+- [036 - Upload button](https://dopamine908.github.io/FrontLayoutPractice/html/031-060/036.html) ???

@@ -1,0 +1,14 @@
+.container {
+    margin-top: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.upload-button {
+    width: 200px;
+    height: 40px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 32px;
+}
