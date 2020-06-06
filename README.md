@@ -43,3 +43,4 @@
 - [038 - Avatar list](https://dopamine908.github.io/FrontLayoutPractice/html/031-060/038.html)
 - [039 - Card](https://dopamine908.github.io/FrontLayoutPractice/html/031-060/039.html)
 - [040 - Docked at corner](https://dopamine908.github.io/FrontLayoutPractice/html/031-060/040.html)
+- [041 - Drop cap](https://dopamine908.github.io/FrontLayoutPractice/html/031-060/041.html)

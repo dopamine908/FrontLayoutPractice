@@ -1,0 +1,18 @@
+.container {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.drop-cap {
+    width: 400px;
+    background-color: #F4F4F4;
+}
+
+.left-top {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: gray;
+    margin: 5px;
+}
