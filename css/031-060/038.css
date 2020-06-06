@@ -1,0 +1,50 @@
+.container {
+    margin-top: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.avatar-list {
+    display: flex;
+    position: relative;
+}
+
+.circle {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: gray;
+}
+
+/*.after-circle{*/
+/*    border: white 5px solid;*/
+/*    position: absolute;*/
+/*    top:-5px;*/
+/*}*/
+.c1 {
+    border: white 5px solid;
+    position: absolute;
+    top: -5px;
+    left: 60px;
+}
+
+.c2 {
+    border: white 5px solid;
+    position: absolute;
+    top: -5px;
+    left: 120px;
+}
+
+.c3 {
+    border: white 5px solid;
+    position: absolute;
+    top: -5px;
+    left: 180px;
+}
+
+.c4 {
+    border: white 5px solid;
+    position: absolute;
+    top: -5px;
+    left: 240px;
+}

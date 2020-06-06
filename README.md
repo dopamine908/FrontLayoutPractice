@@ -40,3 +40,4 @@
 - [035 - Toggle password visibility](https://dopamine908.github.io/FrontLayoutPractice/html/031-060/035.html) ???
 - [036 - Upload button](https://dopamine908.github.io/FrontLayoutPractice/html/031-060/036.html) ???
 - [037 - Accordion](https://dopamine908.github.io/FrontLayoutPractice/html/031-060/037.html)
+- [038 - Avatar list](https://dopamine908.github.io/FrontLayoutPractice/html/031-060/038.html)
