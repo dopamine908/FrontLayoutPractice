@@ -1,0 +1,22 @@
+.container {
+    margin-top: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.stepper-input {
+    display: flex;
+    border: dimgray 1px solid;
+    border-radius: 5px;
+}
+
+input {
+    font-size: 24px;
+    border: transparent;
+}
+
+button {
+    width: 34px;
+    height: 34px;
+    border: transparent;
+}
