@@ -1,0 +1,42 @@
+.container {
+    margin-top: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.hidden {
+    display: none;
+}
+
+.switch {
+    width: 300px;
+    height: 100px;
+    border-radius: 50px;
+    background-color: #F4F4F4;
+    display: flex;
+    justify-content: space-between;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    border: dimgray solid 1px;
+}
+
+label {
+    opacity: 0;
+}
+
+input[type=radio]:checked + label {
+    opacity: 1
+}
+
+#r1:checked .switch {
+    background-color: #F4F4F4;
+}
+
+#r2:checked .switch {
+    background-color: cornflowerblue;
+}

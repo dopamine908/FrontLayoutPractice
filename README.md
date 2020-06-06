@@ -36,3 +36,4 @@
 - [031 - Slider](https://dopamine908.github.io/FrontLayoutPractice/html/031-060/031.html) 
 - [032 - Spin button](https://dopamine908.github.io/FrontLayoutPractice/html/031-060/032.html) 
 - [033 - Stepper input](https://dopamine908.github.io/FrontLayoutPractice/html/031-060/033.html) 
+- [034 - Switch](https://dopamine908.github.io/FrontLayoutPractice/html/031-060/034.html) ???
