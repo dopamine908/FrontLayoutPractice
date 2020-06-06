@@ -1,0 +1,22 @@
+.container{
+    margin-top: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.line{
+    width: 500px;
+    height: 5px;
+ background-color: dimgray;
+    position: relative;
+}
+
+.circle{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: dimgray;
+    position: absolute;
+    top: -22.5px;
+    left: 100px;
+}

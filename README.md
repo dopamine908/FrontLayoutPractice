@@ -32,5 +32,5 @@
 - [027 - Input add-on](https://dopamine908.github.io/FrontLayoutPractice/html/000-030/027.html)
 - [028 - Radio button group](https://dopamine908.github.io/FrontLayoutPractice/html/000-030/028.html)
 - [029 - Radio switch](https://dopamine908.github.io/FrontLayoutPractice/html/000-030/029.html)
-- [030 - Rating
-](https://dopamine908.github.io/FrontLayoutPractice/html/000-030/030.html) ???
+- [030 - Rating](https://dopamine908.github.io/FrontLayoutPractice/html/000-030/030.html) ???
+- [031 - Slider](https://dopamine908.github.io/FrontLayoutPractice/html/031-060/031.html) 
