@@ -1,0 +1,45 @@
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.container{
+    margin-top: 300px;
+    display: flex;
+    justify-content: center;
+}
+
+.spin-button{
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    border: gray 1px solid;
+}
+
+input{
+    width: 150px;
+    height: 40px;
+    font-size: 32px;
+    border: transparent;
+}
+
+.arrows
+{
+    width: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: transparent;
+
+}
+
+.upper-arrow{
+    border-color: transparent;
+    flex: 1;
+}
+
+.lower-arrow{
+    border-color: transparent;
+    flex: 1;
+}
