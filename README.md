@@ -47,3 +47,4 @@
 - [042 - Timeline](https://dopamine908.github.io/FrontLayoutPractice/html/031-060/042.html)
 - [043 - Popover arrow](https://dopamine908.github.io/FrontLayoutPractice/html/031-060/043.html)
 - [044 - Tooltip](https://dopamine908.github.io/FrontLayoutPractice/html/031-060/044.html)
+- [045 - 六角CSS課程最終作業](https://dopamine908.github.io/FrontLayoutPractice/html/031-060/045.html)
