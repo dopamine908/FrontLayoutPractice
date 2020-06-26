@@ -48,4 +48,5 @@
 - [043 - Popover arrow](https://dopamine908.github.io/FrontLayoutPractice/html/031-060/043.html)
 - [044 - Tooltip](https://dopamine908.github.io/FrontLayoutPractice/html/031-060/044.html)
 - [045 - 六角CSS課程最終作業](https://dopamine908.github.io/FrontLayoutPractice/html/031-060/045.html)
-- [046 - 六角CSS課程-flex作業-1](https://dopamine908.github.io/FrontLayoutPractice/html/031-060/046.html)
+- [046 - 六角CSS課程-flex作業-1 - 並排卡片](https://dopamine908.github.io/FrontLayoutPractice/html/031-060/046.html)
+- [047 - 六角CSS課程-flex作業-2 - 雙欄排版](https://dopamine908.github.io/FrontLayoutPractice/html/031-060/047.html)
