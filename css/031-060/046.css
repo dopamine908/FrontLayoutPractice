@@ -1,0 +1,46 @@
+.container {
+    width: 1280px;
+    margin: 0 auto;
+}
+
+.row {
+    background-color: #415C48;
+    display: flex;
+    justify-content: space-between;
+}
+
+.row-item {
+    margin: 10px;
+    background-color: #FFFFFF;
+}
+
+.row-item h1 {
+    font-size: 60px;
+}
+
+.row-item h2 {
+    font-size: 30px;
+    margin-bottom: 20px
+}
+
+.row-item p {
+    font-size: 25px;
+    line-height: 1.3em;
+}
+
+.item-title {
+    display: flex;
+    height: 200px;
+    background-color: #EBF0EE;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-content {
+    padding: 30px;
+    height: 200px;
+}
+
+.deep-green {
+    color: #415C48;
+}
