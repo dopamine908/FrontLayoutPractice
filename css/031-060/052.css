@@ -1,0 +1,48 @@
+.container {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ebf0ee;
+}
+
+.banner img {
+    padding: 20px 0;
+}
+
+.banner h1 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #415C48;
+    padding: 20px 0;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: #FFFFFF;
+    padding: 20px 30px;
+}
+
+footer ul {
+    display: flex;
+    align-items: center;
+}
+
+footer li {
+    margin: 0 10px;
+}
+
+footer a {
+    color: #415C48;
+    font-size: 18px;
+    text-decoration: none;
+}
