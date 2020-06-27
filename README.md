@@ -52,3 +52,4 @@
 - [047 - 六角CSS課程-flex作業-2 - 雙欄排版](https://dopamine908.github.io/FrontLayoutPractice/html/031-060/047.html)
 - [048 - 六角CSS課程-flex作業-3 - 雙欄選單設計](https://dopamine908.github.io/FrontLayoutPractice/html/031-060/048.html)
 - [049 - 六角CSS課程-flex作業-4 - 表頭表尾設計](https://dopamine908.github.io/FrontLayoutPractice/html/031-060/049.html)
+- [049 - 六角CSS課程-flex作業-5 - 常見三種排版](https://dopamine908.github.io/FrontLayoutPractice/html/031-060/050.html)
