@@ -1,0 +1,23 @@
+.banner {
+    display: flex;
+    height: 100vh;
+}
+
+.title {
+    background-color: darkcyan;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    padding: 0 50px;
+}
+
+.title h1 {
+    font-size: 32px;
+    color: #FFFFFF;
+    display: block;
+}
+
+.banner img {
+    flex-grow: 1;
+}
