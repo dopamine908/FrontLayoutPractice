@@ -1,0 +1,288 @@
+.container {
+    background-color: #fafafa;
+    width: 1024px;
+    margin: 0 auto;
+}
+
+.intro {
+    background: url("../../img/057/img-headerShape.png");
+    height: 399px;
+    display: flex;
+    align-items: center;
+}
+
+.person-preview {
+    margin: 0 135px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.person-preview img {
+    margin: 12px 0;
+}
+
+.person-preview h1 {
+    font-size: 42px;
+    margin: 7px 0;
+}
+
+.person-preview p {
+    font-size: 14px;
+    color: #4A4A4A;
+    margin-top: 12px;
+}
+
+.contact {
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+.contact li {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 12px 0;
+}
+
+.contact li img {
+    margin: 0 12px;
+}
+
+.skills {
+    margin-top: 130px;
+}
+
+.skills h2, .experience h2 {
+    font-size: 24px;
+    color: #1736DC;
+    text-align: center;
+}
+
+.skills-content {
+    margin-top: 48px;
+    justify-content: space-between;
+    padding: 0 70px;
+}
+
+.skills-item {
+    width: 284px;
+    background-color: #FFFFFF;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.skills-item img {
+    margin: 25px 0;
+}
+
+.skills-item h3 {
+    font-size: 18px;
+    margin-bottom: 25px;
+    color: #4a4a4a;
+}
+
+.skills-item ul {
+    margin-bottom: 27px;
+    list-style-type: disc;
+    font-size: 10px;
+    line-height: 14px;
+}
+
+.orange-bottom {
+    border-bottom: #F58D23 6px solid;
+}
+
+.green-bottom {
+    border-bottom: #539E43 6px solid;
+}
+
+.blue-bottom {
+    border-bottom: #6762A6 6px solid;
+}
+
+.flex-row {
+    display: flex;
+}
+
+.experience {
+    margin-top: 56px;
+}
+
+.time-line {
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.column-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.line {
+    width: 2px;
+    background-color: #D8D8D8;
+    position: relative;
+}
+
+.end-point {
+    width: 46px;
+    height: 4px;
+    background-color: #D8D8D8;
+}
+
+.time-line-box {
+    position: relative;
+    width: 260px;
+    padding: 12px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    border: #FB56BF 1px solid;
+}
+
+.time-line-box h4 {
+    color: #8A1737;
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+
+.time-line-box h5 {
+    font-size: 12px;
+    margin-bottom: 10px;
+    color: #4A4A4A;
+}
+
+.time-line-box p {
+    color: #9B9B9B;
+    font-size: 10px;
+}
+
+.date-during {
+    font-weight: bold;
+
+}
+
+.right-box {
+    left: 24px;
+    top: -24px;
+}
+
+.left-box {
+    right: 308px;
+    top: -24px;
+}
+
+.start-end-line {
+    width: 2px;
+    height: 80px;
+}
+
+.works {
+    margin-top: 56px;
+}
+
+.works h2, .about h2 {
+    font-size: 24px;
+    color: #FB56BF;
+    text-align: center;
+}
+
+.works-content {
+    padding: 0 70px;
+    justify-content: space-between;
+    margin-top: 46px;
+}
+
+.works-item {
+    width: 284px;
+    cursor: pointer;
+}
+
+.works-item:hover {
+    box-shadow: 0 1px 4px 0;
+}
+
+.work-img {
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.right-bottom-img {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.pink-background {
+    background-color: #fdb4e3;
+}
+
+.black-background {
+    background-color: #424242;
+}
+
+.blue-background {
+    background-color: #8ad7fa;
+}
+
+.work-describe {
+    background-color: #FFFFFF;
+    padding: 8px;
+}
+
+.work-describe h3 {
+    font-size: 14px;
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.about {
+    margin-top: 100px;
+    padding-bottom: 75px;
+}
+
+.as-photo {
+    width: 260px;
+    height: 335px;
+    background-color: gray;
+    flex-shrink: 0;
+    margin-left: 70px;
+}
+
+.about-content {
+    margin-top: 50px;
+    padding: 0 100px;
+    justify-content: space-around;
+}
+
+.about-describe {
+    width: 442px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.about-describe p {
+    line-height: 26px;
+    font-size: 14px;
+}
+
+footer {
+    background: url("../../img/057/img-Looper-bg.png");
+}
+
+footer h4 {
+    text-align: center;
+    font-size: 16px;
+    line-height: 87px;
+}

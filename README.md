@@ -59,3 +59,4 @@
 - [054 - 六角CSS課程-flex作業-9 - 訂單明細](https://dopamine908.github.io/FrontLayoutPractice/html/031-060/054.html)
 - [055 - 六角CSS課程-flex作業-10 - 產品列表](https://dopamine908.github.io/FrontLayoutPractice/html/031-060/055.html)
 - [056 - 六角CSS課程最終作業 - 用flex重新寫過](https://dopamine908.github.io/FrontLayoutPractice/html/031-060/056.html)
+- [057 - 六角CSS課程最終作業 - 個人簡歷](https://dopamine908.github.io/FrontLayoutPractice/html/031-060/057.html)
