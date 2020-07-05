@@ -19,13 +19,13 @@
 </head>
 <body>
 <div class="container">
-    <div class="top-bar">
+    <div class="top-bar clear-fix">
         <ul>
             <li><img src="../../img/045/facebookIcon.png" alt="紛絲團"><a href="#">紛絲團</a></li>
             <li><img src="../../img/045/twitterIcon.png" alt="追隨我們"><a href="#">追隨我們</a></li>
         </ul>
     </div>
-    <nav>
+    <nav class="main-nav clear-fix">
         <a href="#" class="logo">logo</a>
         <ul>
             <li class="nav-item">
@@ -44,39 +44,43 @@
     </nav>
     <div class="banner">
         <div class="banner-text">
-            <h1>六角學院</h1>
-            <h1>讓您奠定良好的前端基礎</h1>
+            <h1>六角學院<br>
+                讓您奠定良好的前端基礎</h1>
         </div>
     </div>
-    <div class="feature">
-        <div class="feature-item">
-            <div class="feature-item-img">
-                <img src="../../img/045/html.png" alt="Html 5基礎教學">
-            </div>
-            <h3>Html 5基礎教學</h3>
-            <p>主流前端網站設計的基礎就在六角學院，在這裡不在是填鴨式教學，而是透過實際的範例，瞭解正確的網站開發流程，講師均具有業界開發經驗，讓學員學習業界主流的開發方法。</p>
-        </div>
-        <div class="feature-item">
-            <div class="feature-item-img">
-                <img src="../../img/045/rwd.png" alt="響應式網站設計">
-            </div>
-            <h3>響應式網站設計</h3>
-            <p>響應式網站設計 (Responsive web design)，目前大多使用者均是以手機瀏覽的情況下，響應式網站已經是必備的。六角學院將會提供業界響應式開發方法，讓學生瞭解行動版開發技巧。</p>
-        </div>
-        <div class="feature-item">
-            <div class="feature-item-img">
-                <img src="../../img/045/jQuery.png" alt="">
-            </div>
-            <h3>jQuery 實戰教學</h3>
-            <p>本課程有以下特色
-                ．瞭解變數的使用方法
-                ．學習並操作DOM
-                ．學習基本數學運算方法
-                ．套件的操作及運用</p>
-        </div>
+    <div class="feature clear-fix">
+        <ul>
+            <li class="feature-item">
+                <div class="feature-item-img">
+                    <img src="../../img/045/html.png" alt="Html 5基礎教學">
+                </div>
+                <h3>Html 5基礎教學</h3>
+                <p>主流前端網站設計的基礎就在六角學院，在這裡不在是填鴨式教學，而是透過實際的範例，瞭解正確的網站開發流程，講師均具有業界開發經驗，讓學員學習業界主流的開發方法。</p>
+            </li>
+            <li class="feature-item">
+                <div class="feature-item-img">
+                    <img src="../../img/045/rwd.png" alt="響應式網站設計">
+                </div>
+                <h3>響應式網站設計</h3>
+                <p>響應式網站設計 (Responsive web design)，目前大多使用者均是以手機瀏覽的情況下，響應式網站已經是必備的。六角學院將會提供業界響應式開發方法，讓學生瞭解行動版開發技巧。</p>
+            </li>
+            <li class="feature-item">
+                <div class="feature-item-img">
+                    <img src="../../img/045/jQuery.png" alt="">
+                </div>
+                <h3>jQuery 實戰教學</h3>
+                <p>本課程有以下特色</p>
+                <ul>
+                    <li>瞭解變數的使用方法</li>
+                    <li>學習並操作DOM</li>
+                    <li>學習基本數學運算方法</li>
+                    <li>套件的操作及運用</li>
+                </ul>
+            </li>
+        </ul>
     </div>
     <div class="comparison">
-        <h1>線上及實體課程的差異</h1>
+        <h2>線上及實體課程的差異</h2>
         <table>
             <tr>
                 <th>項目</th>
@@ -122,23 +126,27 @@
             </tr>
         </table>
     </div>
-    <div class="connect-us">
+    <div class="connect-us clear-fix">
         <h2>對我們的課程有興趣嗎？</h2>
         <h2>歡迎留下您的資料</h2>
-        <div class="form-area">
-            <div class="area-like-map"></div>
-            <form action="#">
-                <label for="name">姓名</label>
-                <input type="text" name="name" id="name">
-                <label for="phone">電話</label>
-                <input type="text" name="phone" id="phone">
-                <label for="email">信箱</label>
-                <input type="email" name="email" id="email">
-                <button>提交</button>
+        <div class="form-area clear-fix">
+            <form action="">
+                <div class="left-form">
+                    <textarea></textarea>
+                </div>
+                <div class="right-form">
+                    <label for="name">姓名</label>
+                    <input type="text" name="name" id="name">
+                    <label for="phone">電話</label>
+                    <input type="text" name="phone" id="phone">
+                    <label for="email">信箱</label>
+                    <input type="email" name="email" id="email">
+                    <button>提交</button>
+                </div>
             </form>
         </div>
     </div>
-    <footer>
+    <footer class="main-footer clear-fix">
         <img src="../../img/045/footerLogo.png" alt="">
         <div class="footer-connect-us">
             <p>聯絡我們：<span class="footer-pink-font">hexschool@gmail.com</span></p>

@@ -5,11 +5,15 @@
 
 .top-bar {
     background-color: #F6F6F6;
-    height: 40px;
+    width: 100%;
+}
+
+.top-bar ul {
+    float: right;
 }
 
 .top-bar li {
-    float: right;
+    float: left;
     padding: 10px 20px;
 }
 
@@ -17,8 +21,10 @@
     margin: 0 10px;
 }
 
-nav {
-    height: 50px;
+.clear-fix:after {
+    clear: both;
+    display: table;
+    content: '';
 }
 
 .logo {
@@ -33,9 +39,12 @@ nav {
     float: left;
 }
 
-.nav-item {
+.main-nav ul {
     float: right;
-    padding: 13px 20px;
+}
+
+.nav-item {
+    float: left;
     box-sizing: border-box;
 }
 
@@ -43,7 +52,7 @@ nav {
     background-color: #66E0C2;
     width: 80%;
     height: 5px;
-    margin: 5px auto;
+    margin: 0 auto;
     display: none;
 }
 
@@ -55,12 +64,12 @@ nav {
     color: #80E7CC;
     text-decoration: none;
     font-size: 24px;
-
+    display: block;
+    padding: 8px 20px;
 }
 
 .banner {
     background-image: url("../../img/045/banner.png");
-    width: 1002px;
     height: 346px;
     position: relative;
 }
@@ -76,13 +85,11 @@ nav {
 }
 
 .banner-text h1 {
-    text-indent: 1.5em;
-    padding: 15px 0;
+    padding: 15px 0 15px 50px;
 }
 
 .feature {
     margin: 50px 0;
-    height: 400px;
 }
 
 .feature-item {
@@ -115,11 +122,18 @@ nav {
     margin: 20px;
 }
 
+.feature-item ul {
+    list-style-position: inside;
+    list-style-type: disc;
+    font-size: 18px;
+    margin: 20px;
+}
+
 .comparison {
     margin: 50px 0;
 }
 
-.comparison h1 {
+.comparison h2 {
     text-align: center;
     font-size: 28px;
     margin-bottom: 30px;
@@ -162,25 +176,26 @@ nav {
 }
 
 .form-area {
-    height: 350px;
-}
-
-.area-like-map {
-    width: 50%;
-    background-color: #FFFFFF;
-    height: 270px;
-    margin: 30px;
-    box-sizing: border-box;
-    display: inline-block;
-    float: left;
+    padding: 30px 80px;
 }
 
 .form-area form {
-    margin-top: 30px;
-    margin-right: 50px;
-    float: right;
     box-sizing: border-box;
     color: #FFFFFF;
+}
+
+.left-form {
+    float: left;
+    width: 50%;
+}
+
+.right-form {
+    float: right;
+}
+
+.left-form textarea {
+    width: 90%;
+    height: 270px;
 }
 
 .form-area form label {
@@ -192,6 +207,7 @@ nav {
     width: 350px;
     height: 20px;
     margin-bottom: 20px;
+    display: block;
 }
 
 .form-area button {
@@ -201,19 +217,26 @@ nav {
     border-radius: 5px;
     background-color: #1CCC99;
     border: transparent;
-    margin-left: 275px;
+    float: right;
     color: #FFFFFF;
+    cursor: pointer;
 }
 
-footer {
-    height: 60px;
+.form-area button:hover {
+    background-color: #66E0C2;
+    color: #FFFFFF;
+    transition: 0.5s;
 }
 
-footer img {
+.main-footer {
+    margin-bottom: 30px;
+}
+
+.main-footer img {
     float: left;
 }
 
-footer .footer-connect-us {
+.main-footer .footer-connect-us {
     float: right;
 }
 
