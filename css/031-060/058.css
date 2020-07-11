@@ -1,0 +1,227 @@
+
+.feature {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: inherit;
+    margin-top: 50px;
+}
+
+.feature-title {
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.feature-header h2 {
+    color: #3D1101;
+    font-size: 20px;
+    line-height: 1.5em;
+    text-align: center;
+}
+
+.line-decoration {
+    width: 130px;
+    height: 3px;
+    background-color: #979797;
+    margin: 0 10px;
+}
+
+.feature-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.feature-item {
+    width: 30%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.feature-item img {
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.feature-item h3 {
+    color: #3D1101;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.feature-item p {
+    color: #3D1101;
+    font-size: 18px;
+    line-height: 1.3em
+}
+
+.chef {
+    margin-top: 50px;
+    background-color: #3D1101;
+    display: flex;
+    justify-content: center;
+    padding: 0 40px;
+}
+
+.chef-introduce {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.chef-introduce h3 {
+    color: #EFE9E7;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+.chef-introduce h4 {
+    margin-bottom: 16px;
+}
+
+.chef-introduce h4, .chef-introduce p {
+    color: #EFE9E7;
+    font-size: 16px;
+}
+
+
+.recommend {
+    margin: 50px 0;
+    padding: 0 30px;
+}
+
+.recommend h2 {
+    text-align: center;
+    color: #3D1101;
+    font-size: 24px;
+    margin-bottom: 32px;
+}
+
+.recommend-list {
+    max-width: inherit;
+    display: flex;
+    justify-content: space-between;
+}
+
+.recommend-item {
+    max-width: 30%;
+    display: flex;
+}
+
+.recommend-item img {
+    border-radius: 50%;
+    width: 67px;
+    height: 67px;
+    margin-right: 13px;
+}
+
+.recommend-details h3 {
+    font-size: 18px;
+    color: #3D1101;
+    margin-top: 18px;
+}
+
+.recommend-details p {
+    font-size: 16px;
+    color: #3D1101;
+    margin: 16px 0;
+    line-height: 1.5em;
+}
+
+.recommend-details h4 {
+    font-size: 16px;
+    color: rgba(61, 17, 1, 0.75);
+    text-align: right;
+}
+
+.order {
+    padding: 50px 0;
+    background-color: rgba(250, 250, 250, 0.7);
+}
+
+.order-title {
+    margin-bottom: 38px;
+}
+
+.order-title h2 {
+    color: #3D1101;
+    font-size: 24px;
+    text-align: center;
+    line-height: 1.3em;
+}
+
+.order-details {
+    display: flex;
+    justify-content: space-around;
+}
+
+.order-details form {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 0.8;
+
+}
+
+.order-details form input {
+    width: 90%;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 12px;
+}
+
+.form-group label, .form-group span {
+    margin-bottom: 12px;
+    font-size: 14px;
+    color: #3D1101;
+}
+
+.form-group input:not([type='radio']) {
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-shadow: inset 0 1px 0 0 #ECECEC;
+    border-radius: 3px;
+    height: 32px;
+}
+
+.radio-select {
+    display: flex;
+    justify-content: flex-start;
+}
+
+#yes, #no {
+    width: fit-content;
+}
+
+.radio-select input {
+    margin-right: 36px;
+}
+
+.form-btn-group {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.form-btn {
+    width: 70px;
+    height: 32px;
+    margin-left: 12px;
+    color: #FFFFFF;
+    border-radius: 3px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn-cancel {
+
+    background-color: rgba(0, 0, 0, 0.35);
+}
+
+.btn-confirm {
+    background-color: #F56C23;
+}
