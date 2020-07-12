@@ -59,12 +59,4 @@
         width: 80%;
     }
 
-    .footer, .left-group {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .about, .contact {
-        margin-bottom: 30px;
-    }
 }

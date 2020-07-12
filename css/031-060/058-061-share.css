@@ -123,4 +123,13 @@ body {
     .container {
         max-width: 100vw;
     }
+
+    .footer, .left-group {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about, .contact {
+        margin-bottom: 30px;
+    }
 }
