@@ -1,18 +1,5 @@
 @media (max-width: 767px) {
 
-    .nav ul {
-        display: none;
-    }
-
-    .banner {
-        background: url("../../img/058-061/header_mobile.png");
-        width: 100%;
-    }
-
-    .banner-content {
-        width: 80%;
-    }
-
     .line-decoration {
         display: none;
     }
