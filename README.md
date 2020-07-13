@@ -63,3 +63,4 @@
 - [058 - 六角RWD課程最終作業 - 首頁](https://dopamine908.github.io/FrontLayoutPractice/html/031-060/058.html)
 - [059 - 六角RWD課程最終作業 - 商品頁](https://dopamine908.github.io/FrontLayoutPractice/html/031-060/059.html)
 - [060 - 六角RWD課程最終作業 - 登入頁](https://dopamine908.github.io/FrontLayoutPractice/html/031-060/060.html)
+- [061 - 六角RWD課程最終作業 - 註冊頁](https://dopamine908.github.io/FrontLayoutPractice/html/031-060/061.html)
