@@ -35,6 +35,10 @@ body {
     color: black;
 }
 
+.show-menu {
+    display: none;
+}
+
 .banner {
     background: url("../../img/058-061/header_desktop.png");
     height: 420px;
@@ -133,8 +137,41 @@ body {
         margin-bottom: 30px;
     }
 
+    .nav {
+        background-color: #3D1101;
+    }
+
+    .show-menu {
+        text-align: right;
+    }
+
     .nav ul {
-        display: none;
+        max-height: 0;
+        overflow: hidden;
+        background-color: #3D1101;
+        position: absolute;
+        top: 62px;
+        z-index: 100;
+        display: flex;
+        flex-direction: column;
+        width: 100vw;
+        transition: 1s;
+    }
+
+    .nav-show {
+        max-height: 210px;
+    }
+
+    .nav li {
+        width: 100%;
+    }
+
+    .nav a {
+        width: 100%;
+    }
+
+    .show-menu {
+        display: block;
     }
 
     .banner {
