@@ -97,6 +97,7 @@
     width: 45%;
     color: #FFFFFF;
     border: none;
-    background: rgba(0, 0, 0, 0.35);
+    background: #F56C23;
     border-radius: 3px;
+    align-self: center;
 }
