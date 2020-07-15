@@ -145,7 +145,7 @@ body {
         text-align: right;
     }
 
-    .nav ul {
+    .nav-list {
         max-height: 0;
         overflow: hidden;
         background-color: #3D1101;
@@ -155,7 +155,7 @@ body {
         display: flex;
         flex-direction: column;
         width: 100vw;
-        transition: 1s;
+        transition: 0.5s;
     }
 
     .nav-show {
