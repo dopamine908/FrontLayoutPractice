@@ -1,0 +1,258 @@
+/*Common start*/
+
+.section {
+    margin: 50px 0;
+    width: 95%;
+}
+
+.container {
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*Common end*/
+
+/*Banner start*/
+
+.banner {
+    /*background: url("https://picsum.photos/4096/2160");*/
+    /*background: url("../img/desktop-banner.jpg");*/
+    /*background: url("../img/DSC_0899-1.jpg");*/
+    background: url("../img/DSC_0658-1.jpg");
+    /*background: url("../img/DSC_0664-1.jpg");*/
+    background-position:0 -150px ;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /*background-attachment: fixed;*/
+}
+
+.banner-title {
+    width: 50%;
+    height: 30%;
+    background-color: rgba(255, 255, 255, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner h1 {
+    text-align: center;
+    font-size: 40px;
+}
+
+/*Banner end*/
+
+/*Action Info start*/
+
+.action-info {
+    margin: 50px 0;
+    max-width: 1440px;
+    display: flex;
+    /*justify-content: space-around;*/
+    justify-content: space-evenly;
+}
+
+.datetime-info {
+    display: flex;
+    flex-direction: column;
+    /*padding: 30px 0;*/
+    margin-left: 50px;
+}
+
+.datetime-info-group {
+    margin-bottom: 30px;
+}
+
+.datetime-info-group h2, .datetime-info-group h3 {
+    line-height: 1.3em;
+}
+
+.datetime-info-group h2 {
+    font-size: 24px;
+}
+
+.datetime-info-group h3 {
+    font-size: 32px;
+}
+
+/*Action Info end*/
+
+/*Story Common start*/
+
+.story-container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.story {
+    display: flex;
+    /*justify-content: space-evenly;*/
+    justify-content: space-between;
+    margin: 25px 0;
+}
+
+.photo-left {
+    flex-direction: row;
+}
+
+.photo-right {
+    flex-direction: row-reverse;
+}
+
+.story-content, .story-photo {
+    margin: 20px;
+    /*margin: 20px 200px;*/
+    /*max-width: 600px;*/
+    /*opacity: 0;*/
+    /*transition: 1s;*/
+
+}
+.story-photo-column{
+    max-width: 400px;
+
+}
+.story-photo-row{
+    max-width: 600px;
+
+}
+.story-content {
+    /*width: 200px;*/
+}
+
+/*Story Common end*/
+
+/*First Story start*/
+
+/*.first-story-photo {*/
+/*    position: relative;*/
+/*}*/
+
+.first-story-photo img:nth-child(2) {
+    /*position: relative;*/
+    /*top: -200px;*/
+    /*left: 100px;*/
+    margin-top: -150px;
+    margin-left: 100px;
+}
+
+/*First Story end*/
+
+/*Second Story start*/
+.second-story-photo{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.second-story-photo img:nth-child(2) {
+    /*position: relative;*/
+    /*top: -200px;*/
+    /*left: 100px;*/
+    margin-top: -500px;
+    margin-left: 450px;
+}
+/*Second Story end*/
+
+/*Third Story start*/
+
+.third-story-photo{
+    max-width: 30%;
+}
+
+/*Third Story end*/
+
+/*Animation start*/
+
+.fade-in {
+    /*margin: 20px;*/
+    /*transition: 1s;*/
+    /*opacity: 1;*/
+}
+
+/*Animation end*/
+
+/*Count Down start*/
+
+.countdown{
+    background: url("../img/DSC_0932-1.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.countdown-panel{
+    max-width: 1024px;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    display: flex;
+}
+.countdown-item{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 25px;
+}
+.countdown-number{
+background-color: #FFFFFF;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+line-height: 100px;
+    color: #3D1101;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+.countdown-unit{
+    color: #FFFFFF;
+    font-size: 32px;
+}
+/*.countdown-number, .countdown-unit{*/
+/*    color: #FFFFFF;*/
+/*    font-size: 32px;*/
+/*}*/
+
+/*Count Down end*/
+
+.hidden{
+    display: none;
+}
+
+.story:nth-child(4){
+    justify-content: space-between;
+}
+.story:nth-child(4) img,.story:nth-child(4) p{
+    max-width: 30%;
+}
+.story:nth-child(4) p{
+    display: block;
+}
+
+.let-the-story-tell{
+    background: url("../img/DSC_0752-1.jpg");
+    /*background: url("../img/DSC_0664-1.jpg");*/
+    /*background-position:0 -150px ;*/
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    /*height: 1000px;*/
+    position: relative;
+}
+
+.let-the-story-tell h2{
+    display: block;
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+    background-color: rgba(255, 255, 255, 0.3);
+}
