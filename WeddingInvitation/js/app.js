@@ -18,6 +18,9 @@ function showScroll() {
     var second_story_height_distance = $('.story:nth-child(2) *').offset().top - 600;
     if (scrollVal >= second_story_height_distance) {
         // $('.story:nth-child(2) *').addClass('fade-in');
+        $('.second-story-lower-photo-fade-out').removeClass('second-story-lower-photo-fade-out');
+        $('.second-story-top-photo-fade-out').removeClass('second-story-top-photo-fade-out');
+        $('.second-story-content-fade-out').removeClass('second-story-content-fade-out');
     }
     var third_story_height_distance = $('.story:nth-child(3) *').offset().top - 600;
 
@@ -32,13 +35,25 @@ function showScroll() {
 }
 
 function fadein() {
+    //first
     $('.first-story-lower-photo-fade-out').removeClass('first-story-lower-photo-fade-out');
     $('.first-story-top-photo-fade-out').removeClass('first-story-top-photo-fade-out');
     $('.first-story-content-fade-out').removeClass('first-story-content-fade-out');
+
+    //second
+    $('.second-story-lower-photo-fade-out').removeClass('second-story-lower-photo-fade-out');
+    $('.second-story-top-photo-fade-out').removeClass('second-story-top-photo-fade-out');
+    $('.second-story-content-fade-out').removeClass('second-story-content-fade-out');
 }
 
 function fadeout() {
+    //first
     $('.first-story-lower-layer-photo').addClass('first-story-lower-photo-fade-out');
     $('.first-story-top-layer-photo').addClass('first-story-top-photo-fade-out');
     $('.first-story-content').addClass('first-story-content-fade-out');
+
+    //second
+    $('.second-story-lower-layer-photo').addClass('second-story-lower-photo-fade-out');
+    $('.second-story-top-layer-photo').addClass('second-story-top-photo-fade-out');
+    $('.second-story-content').addClass('second-story-content-fade-out');
 }
