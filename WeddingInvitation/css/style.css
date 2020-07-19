@@ -320,6 +320,38 @@
 
 /*Let the Story Tell end*/
 
+/*Action start*/
+
+.action-title {
+    width: 100%;
+    margin: 50px 0;
+}
+
+.action-title h2 {
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.action-title h3 {
+    text-align: center;
+
+    font-size: 28px;
+    line-height: 1.5em;
+}
+
+.action-title-division {
+    margin-bottom: 50px;
+}
+
+.our-story-title {
+    font-size: 48px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+/*Action end*/
+
 /*Count Down start*/
 
 .countdown {
@@ -364,53 +396,14 @@
     font-size: 32px;
 }
 
-/*.countdown-number, .countdown-unit{*/
-/*    color: #FFFFFF;*/
-/*    font-size: 32px;*/
-/*}*/
-
 /*Count Down end*/
-
-.hidden {
-    display: none;
-}
-
-
-.action-title {
-    width: 100%;
-    margin: 50px 0;
-}
-
-.action-title h2 {
-    font-size: 48px;
-    text-align: center;
-    margin-bottom: 50px;
-}
-
-.action-title h3 {
-    text-align: center;
-
-    font-size: 28px;
-    line-height: 1.5em;
-}
-
-.action-title-division {
-    margin-bottom: 50px;
-}
-
-.our-story-title {
-    font-size: 48px;
-    text-align: center;
-    margin-top: 50px;
-}
 
 /*Action Info start*/
 
 .action-info {
-    margin: 50px 0;
+    margin: 50px auto;
     max-width: 1440px;
     display: flex;
-    /*justify-content: space-around;*/
     justify-content: space-evenly;
 }
 
