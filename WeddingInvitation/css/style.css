@@ -78,7 +78,6 @@
 
 .story-photo-column {
     max-width: 400px;
-
 }
 
 .story-photo-row {
@@ -216,8 +215,48 @@
 
 /*Third Story start*/
 
-.third-story-photo {
+.third-story-photo-left {
     max-width: 30%;
+    transition: 2s;
+    opacity: 1;
+    position: relative;
+    left: 0;
+}
+
+.third-story-photo-center {
+    max-width: 30%;
+    transition: 1s;
+    opacity: 1;
+}
+
+.third-story-photo-right {
+    max-width: 30%;
+    transition: 3s;
+    opacity: 1;
+    position: relative;
+    right: 0;
+}
+
+.third-story-photo-left-fade-out {
+    position: relative;
+    left: 35%;
+    opacity: 0;
+    transition: 2s;
+
+}
+
+.third-story-photo-center-fade-out {
+    opacity: 0;
+    transition: 1s;
+
+}
+
+.third-story-photo-right-fade-out {
+    opacity: 0;
+    position: relative;
+    right: 35%;
+    transition: 3s;
+
 }
 
 /*Third Story end*/
