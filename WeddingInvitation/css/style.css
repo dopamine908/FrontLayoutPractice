@@ -275,6 +275,51 @@
 
 /*Fourth Story end*/
 
+/*Let the Story Tell start*/
+
+.let-the-story-tell {
+    background: url("../img/DSC_0752-1.jpg");
+    /*background: url("../img/DSC_0664-1.jpg");*/
+    /*background-position:0 -150px ;*/
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    /*height: 1000px;*/
+    position: relative;
+}
+
+.let-the-story-tell-content {
+    display: block;
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+    z-index: 1;
+    font-size: 24px;
+    line-height: 1.5em;
+    padding: 20px;
+
+    background: hsla(0, 0%, 100%, .1);
+    overflow: hidden;
+    border-radius: .3em;
+    box-shadow: 0 0 0 1px hsla(0, 0%, 100%, .3) inset,
+    0 .5em 1em rgba(0, 0, 0, 0.6);
+    /*text-shadow: 0 1px 1px hsla(0,0%,100%,.3);*/
+}
+
+.let-the-story-tell-content:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    filter: blur(10px);
+    z-index: -1;
+    margin: -10px;
+}
+
+/*Let the Story Tell end*/
+
 /*Count Down start*/
 
 .countdown {
@@ -328,26 +373,6 @@
 
 .hidden {
     display: none;
-}
-
-
-.let-the-story-tell {
-    background: url("../img/DSC_0752-1.jpg");
-    /*background: url("../img/DSC_0664-1.jpg");*/
-    /*background-position:0 -150px ;*/
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
-    /*height: 1000px;*/
-    position: relative;
-}
-
-.let-the-story-tell h2 {
-    display: block;
-    position: absolute;
-    left: 5%;
-    bottom: 5%;
-    background-color: rgba(255, 255, 255, 0.3);
 }
 
 
