@@ -85,14 +85,6 @@
 
 }
 
-.story-content { /* will refactor to every story-content*/
-    line-height: 1.5em;
-    margin: 20px;
-    max-width: 600px;
-    transition: 1s;
-
-}
-
 /*Story Common end*/
 
 /*First Story start*/
@@ -261,15 +253,27 @@
 
 /*Third Story end*/
 
-/*Animation start*/
+/*Fourth Story start*/
 
-.fade-in {
-    /*margin: 20px;*/
-    /*transition: 1s;*/
-    /*opacity: 1;*/
+.fourth-story-item {
+    max-width: 30%;
 }
 
-/*Animation end*/
+.fourth-story-content {
+    display: block;
+    opacity: 1;
+    transition: 1s;
+    line-height: 1.5em;
+    /*margin: 20px;*/
+}
+
+.fourth-story-content-fade-out {
+    opacity: 0;
+    transition: 1s;
+
+}
+
+/*Fourth Story end*/
 
 /*Count Down start*/
 
@@ -326,17 +330,6 @@
     display: none;
 }
 
-.story:nth-child(4) {
-    justify-content: space-between;
-}
-
-.story:nth-child(4) img, .story:nth-child(4) p {
-    max-width: 30%;
-}
-
-.story:nth-child(4) p {
-    display: block;
-}
 
 .let-the-story-tell {
     background: url("../img/DSC_0752-1.jpg");
