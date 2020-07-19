@@ -21,7 +21,7 @@
     /*background: url("https://picsum.photos/4096/2160");*/
     /*background: url("../img/desktop-banner.jpg");*/
     /*background: url("../img/DSC_0899-1.jpg");*/
-    background: url("../img/DSC_0658-1.jpg");
+    background: url("../img/0-banner.jpg");
     /*background: url("../img/DSC_0664-1.jpg");*/
     background-position: 0 -150px;
     background-size: cover;
@@ -278,7 +278,7 @@
 /*Let the Story Tell start*/
 
 .let-the-story-tell {
-    background: url("../img/DSC_0752-1.jpg");
+    background: url("../img/5-let-the-story-tell.jpg");
     /*background: url("../img/DSC_0664-1.jpg");*/
     /*background-position:0 -150px ;*/
     background-size: cover;
@@ -323,7 +323,7 @@
 /*Count Down start*/
 
 .countdown {
-    background: url("../img/DSC_0932-1.jpg");
+    background: url("../img/6-countdown.jpg");
     background-size: cover;
     width: 100%;
     height: 600px;
