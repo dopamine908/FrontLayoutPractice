@@ -10,6 +10,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 0 auto;
 }
 
 /*Common end*/
@@ -22,7 +23,7 @@
     /*background: url("../img/DSC_0899-1.jpg");*/
     background: url("../img/DSC_0658-1.jpg");
     /*background: url("../img/DSC_0664-1.jpg");*/
-    background-position:0 -150px ;
+    background-position: 0 -150px;
     background-size: cover;
     width: 100%;
     height: 100vh;
@@ -49,6 +50,264 @@
 }
 
 /*Banner end*/
+
+
+/*Story Common start*/
+
+.story-container {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.story {
+    display: flex;
+    /*justify-content: space-evenly;*/
+    justify-content: space-between;
+    margin: 25px 0;
+}
+
+.story-photo {
+    margin: 20px;
+    /*margin: 20px 200px;*/
+    max-width: 600px;
+    /*opacity: 0;*/
+    /*transition: 1s;*/
+}
+
+.story-photo-column {
+    max-width: 400px;
+
+}
+
+.story-photo-row {
+    max-width: 600px;
+
+}
+
+.story-content { /* will refactor to every story-content*/
+    line-height: 1.5em;
+    margin: 20px;
+    max-width: 600px;
+    transition: 1s;
+
+}
+
+/*Story Common end*/
+
+/*First Story start*/
+
+.first-story {
+    flex-direction: row;
+}
+
+.first-story-photo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 750px;
+    opacity: 1;
+}
+
+.first-story-top-layer-photo {
+    margin-top: -150px;
+    margin-left: 100px;
+    transition: 1.5s;
+    opacity: 1;
+
+}
+
+.first-story-lower-layer-photo {
+    transition: 1s;
+    opacity: 1;
+}
+
+.first-story-top-photo-fade-out {
+    margin-top: -300px;
+    margin-left: 100px;
+    opacity: 0;
+    transition: 1.5s;
+}
+
+.first-story-lower-photo-fade-out {
+    opacity: 0;
+    transition: 1s;
+}
+
+.first-story-content {
+    line-height: 1.5em;
+    margin: 20px;
+    max-width: 600px;
+    transition: 1.3s;
+    opacity: 1;
+
+}
+
+.first-story-content-fade-out {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 150px;
+    transition: 1.3s;
+    opacity: 0;
+
+}
+
+/*First Story end*/
+
+/*Second Story start*/
+.second-story {
+    flex-direction: row-reverse;
+}
+
+.second-story-photo {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.second-story-photo img:nth-child(2) {
+    /*position: relative;*/
+    /*top: -200px;*/
+    /*left: 100px;*/
+    margin-top: -500px;
+    margin-left: 450px;
+}
+
+/*Second Story end*/
+
+/*Third Story start*/
+
+.third-story-photo {
+    max-width: 30%;
+}
+
+/*Third Story end*/
+
+/*Animation start*/
+
+.fade-in {
+    /*margin: 20px;*/
+    /*transition: 1s;*/
+    /*opacity: 1;*/
+}
+
+/*Animation end*/
+
+/*Count Down start*/
+
+.countdown {
+    background: url("../img/DSC_0932-1.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.countdown-panel {
+    max-width: 1024px;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    display: flex;
+}
+
+.countdown-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 25px;
+}
+
+.countdown-number {
+    background-color: #FFFFFF;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    color: #3D1101;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.countdown-unit {
+    color: #FFFFFF;
+    font-size: 32px;
+}
+
+/*.countdown-number, .countdown-unit{*/
+/*    color: #FFFFFF;*/
+/*    font-size: 32px;*/
+/*}*/
+
+/*Count Down end*/
+
+.hidden {
+    display: none;
+}
+
+.story:nth-child(4) {
+    justify-content: space-between;
+}
+
+.story:nth-child(4) img, .story:nth-child(4) p {
+    max-width: 30%;
+}
+
+.story:nth-child(4) p {
+    display: block;
+}
+
+.let-the-story-tell {
+    background: url("../img/DSC_0752-1.jpg");
+    /*background: url("../img/DSC_0664-1.jpg");*/
+    /*background-position:0 -150px ;*/
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    /*height: 1000px;*/
+    position: relative;
+}
+
+.let-the-story-tell h2 {
+    display: block;
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+
+.action-title {
+    width: 100%;
+    margin: 50px 0;
+}
+
+.action-title h2 {
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.action-title h3 {
+    text-align: center;
+
+    font-size: 28px;
+    line-height: 1.5em;
+}
+
+.action-title-division {
+    margin-bottom: 50px;
+}
+
+.our-story-title {
+    font-size: 48px;
+    text-align: center;
+    margin-top: 50px;
+}
 
 /*Action Info start*/
 
@@ -84,208 +343,3 @@
 }
 
 /*Action Info end*/
-
-/*Story Common start*/
-
-.story-container {
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.story {
-    display: flex;
-    /*justify-content: space-evenly;*/
-    justify-content: space-between;
-    margin: 25px 0;
-}
-
-.photo-left {
-    flex-direction: row;
-}
-
-.photo-right {
-    flex-direction: row-reverse;
-}
-
-.story-content, .story-photo {
-    margin: 20px;
-    /*margin: 20px 200px;*/
-    /*max-width: 600px;*/
-    /*opacity: 0;*/
-    /*transition: 1s;*/
-
-}
-.story-photo-column{
-    max-width: 400px;
-
-}
-.story-photo-row{
-    max-width: 600px;
-
-}
-.story-content {
-    line-height: 1.5em;
-    /*width: 200px;*/
-}
-
-/*Story Common end*/
-
-/*First Story start*/
-
-.first-story-photo {
-    /*position: relative;*/
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-}
-
-.first-story-photo img:nth-child(2) {
-    /*position: relative;*/
-    /*top: -200px;*/
-    /*left: 100px;*/
-    margin-top: -150px;
-    margin-left: 100px;
-}
-
-/*First Story end*/
-
-/*Second Story start*/
-.second-story-photo{
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-}
-.second-story-photo img:nth-child(2) {
-    /*position: relative;*/
-    /*top: -200px;*/
-    /*left: 100px;*/
-    margin-top: -500px;
-    margin-left: 450px;
-}
-/*Second Story end*/
-
-/*Third Story start*/
-
-.third-story-photo{
-    max-width: 30%;
-}
-
-/*Third Story end*/
-
-/*Animation start*/
-
-.fade-in {
-    /*margin: 20px;*/
-    /*transition: 1s;*/
-    /*opacity: 1;*/
-}
-
-/*Animation end*/
-
-/*Count Down start*/
-
-.countdown{
-    background: url("../img/DSC_0932-1.jpg");
-    background-size: cover;
-    width: 100%;
-    height: 600px;
-    background-attachment: fixed;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.countdown-panel{
-    max-width: 1024px;
-    justify-content: space-evenly;
-    margin: 0 auto;
-    display: flex;
-}
-.countdown-item{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 25px;
-}
-.countdown-number{
-background-color: #FFFFFF;
-    border-radius: 50%;
-    width: 100px;
-    height: 100px;
-    text-align: center;
-line-height: 100px;
-    color: #3D1101;
-    font-size: 32px;
-    margin-bottom: 20px;
-}
-.countdown-unit{
-    color: #FFFFFF;
-    font-size: 32px;
-}
-/*.countdown-number, .countdown-unit{*/
-/*    color: #FFFFFF;*/
-/*    font-size: 32px;*/
-/*}*/
-
-/*Count Down end*/
-
-.hidden{
-    display: none;
-}
-
-.story:nth-child(4){
-    justify-content: space-between;
-}
-.story:nth-child(4) img,.story:nth-child(4) p{
-    max-width: 30%;
-}
-.story:nth-child(4) p{
-    display: block;
-}
-
-.let-the-story-tell{
-    background: url("../img/DSC_0752-1.jpg");
-    /*background: url("../img/DSC_0664-1.jpg");*/
-    /*background-position:0 -150px ;*/
-    background-size: cover;
-    width: 100%;
-    height: 100vh;
-    /*height: 1000px;*/
-    position: relative;
-}
-
-.let-the-story-tell h2{
-    display: block;
-    position: absolute;
-    left: 5%;
-    bottom: 5%;
-    background-color: rgba(255, 255, 255, 0.3);
-}
-
-
-.action-title{
-    width: 100%;
-    margin: 50px 0;
-}
-
-.action-title h2{
-    font-size: 48px;
-    text-align: center;
-    margin-bottom: 50px;
-}
-.action-title h3{
-    text-align: center;
-
-    font-size: 28px;
-    line-height: 1.5em;
-}
-.action-title-division{
-    margin-bottom: 50px;
-}
-
-.our-story-title{
-    font-size: 48px;
-    text-align: center;
-    margin-top: 50px;
-}
