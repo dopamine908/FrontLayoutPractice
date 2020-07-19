@@ -431,3 +431,14 @@
 }
 
 /*Action Info end*/
+
+/*Footer start*/
+
+.footer {
+    background-color: silver;
+    font-size: 14px;
+    text-align: center;
+    padding: 15px;
+}
+
+/*Footer end*/
