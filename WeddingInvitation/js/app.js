@@ -75,7 +75,7 @@ function fadeout() {
 }
 
 function getWeddingDateTime() {
-    return new Date(2020, 10, 18, 12, 0, 0, 0);
+    return new Date(2020, 9, 18, 12, 0, 0, 0);
 }
 
 function countDown() {
