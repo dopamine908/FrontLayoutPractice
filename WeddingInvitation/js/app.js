@@ -20,18 +20,19 @@ function showScroll() {
         $('.second-story-top-photo-fade-out').removeClass('second-story-top-photo-fade-out');
         $('.second-story-content-fade-out').removeClass('second-story-content-fade-out');
     }
-    var third_story_height_distance = $('.story:nth-child(3) *').offset().top - 600;
+    // var third_story_height_distance = $('.story:nth-child(3) *').offset().top - 600;
+    var third_story_height_distance = $('.third-story-photo-left').offset().top - 600;
 
     if (scrollVal >= third_story_height_distance) {
         $('.third-story-photo-left-fade-out').removeClass('third-story-photo-left-fade-out');
         $('.third-story-photo-center-fade-out').removeClass('third-story-photo-center-fade-out');
         $('.third-story-photo-right-fade-out').removeClass('third-story-photo-right-fade-out');
     }
-    var fourth_story_height_distance = $('.story:nth-child(4) *').offset().top - 600;
-
-    if (scrollVal >= fourth_story_height_distance) {
-        $('.fourth-story-content-fade-out').removeClass('fourth-story-content-fade-out');
-    }
+    // var fourth_story_height_distance = $('.story:nth-child(4) *').offset().top - 600;
+    //
+    // if (scrollVal >= fourth_story_height_distance) {
+    //     $('.fourth-story-content-fade-out').removeClass('fourth-story-content-fade-out');
+    // }
 }
 
 function fadein() {
