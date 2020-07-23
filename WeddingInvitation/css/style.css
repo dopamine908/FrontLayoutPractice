@@ -1,9 +1,12 @@
 /*Common start*/
-body{
-    /*background-color: #ffebe1;*/
-    /*background-color: #f9f9ff;*/
-background-color: #f6fdff;
+body {
+    background-color: #f6fdff;
 }
+
+.first-story-content, .second-story-content, .story2half-content, .let-the-story-tell-content, .action-title h3, .datetime-info-group h2, .datetime-info-group h3 {
+    font-family: 'GenYoMin-R', serif;
+}
+
 .section {
     margin: 5px 0;
     width: 95%;
@@ -19,8 +22,6 @@ background-color: #f6fdff;
 
 .our-story-title, .where-and-when {
     font-family: 'Playball', cursive;
-    /*font-family: 'Parisienne', cursive;*/
-    /*font-family: 'Great Vibes', cursive;*/
 }
 
 /*Common end*/
@@ -28,11 +29,7 @@ background-color: #f6fdff;
 /*Banner start*/
 
 .banner {
-    /*background: url("https://picsum.photos/4096/2160");*/
-    /*background: url("../img/desktop-banner.jpg");*/
-    /*background: url("../img/DSC_0899-1.jpg");*/
     background: url("../img/0-banner.jpg");
-    /*background: url("../img/DSC_0664-1.jpg");*/
     background-position: 0 -150px;
     background-size: cover;
     width: 100%;
@@ -40,37 +37,33 @@ background-color: #f6fdff;
     display: flex;
     justify-content: center;
     align-items: center;
-    /*background-attachment: fixed;*/
 }
 
 .banner-title {
-    /*width: 50%;*/
-    /*height: 30%;*/
-    /*background-color: rgba(255, 255, 255, 0.3);*/
     display: flex;
     justify-content: center;
     align-items: center;
     border: #FFFFFF 1.5px solid;
 }
 
+.banner-title h1 {
+    font-family: 'Playball', cursive;
+}
+
 .banner h1 {
     line-height: 1.5em;
     text-align: center;
     font-size: 70px;
-    /*padding: 50px 150px;*/
     padding: 20px 100px;
-
     color: #FFFFFF;
-    text-shadow: 0px 4px 3px rgba(0,0,0,0.4), 0px 8px 13px rgba(0,0,0,0.1),0px 18px 23px rgba(0,0,0,0.1);
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
 }
 
 /*Banner end*/
 
-
 /*Story Common start*/
 
 .story-container {
-
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -78,18 +71,13 @@ background-color: #f6fdff;
 
 .story {
     display: flex;
-    /*justify-content: space-evenly;*/
     justify-content: space-between;
     margin: 25px 0;
 }
 
 .story-photo {
     margin: 20px;
-    /*margin: 20px 200px;*/
     max-width: 600px;
-    /*max-width: 300px;*/
-    /*opacity: 0;*/
-    /*transition: 1s;*/
 }
 
 .story-photo-column {
@@ -98,7 +86,6 @@ background-color: #f6fdff;
 
 .story-photo-row {
     max-width: 600px;
-
 }
 
 /*Story Common end*/
@@ -122,7 +109,6 @@ background-color: #f6fdff;
     margin-left: 100px;
     transition: 1.5s;
     opacity: 1;
-
 }
 
 .first-story-lower-layer-photo {
@@ -160,12 +146,12 @@ background-color: #f6fdff;
     margin-left: 150px;
     transition: 1.3s;
     opacity: 0;
-
 }
 
 /*First Story end*/
 
 /*Second Story start*/
+
 .second-story {
     flex-direction: row-reverse;
 }
@@ -182,7 +168,6 @@ background-color: #f6fdff;
     margin-left: 450px;
     transition: 1.5s;
     opacity: 1;
-
 }
 
 .second-story-lower-layer-photo {
@@ -191,8 +176,6 @@ background-color: #f6fdff;
 }
 
 .second-story-top-photo-fade-out {
-    /*margin-top: -500px;*/
-    /*margin-right: -300px;*/
     margin-top: -500px;
     margin-left: 450px;
     opacity: 0;
@@ -212,7 +195,6 @@ background-color: #f6fdff;
     max-width: 600px;
     transition: 1.3s;
     opacity: 1;
-
 }
 
 .second-story-content-fade-out {
@@ -230,18 +212,13 @@ background-color: #f6fdff;
 .story2half {
     width: 100%;
     height: 100vh;
-    /*background-color: #ccc;*/
     background: linear-gradient(115deg, #5c4335 40%, transparent 40%) center center / 100% 100%,
-    url("../img/6-countdown.jpg") right center / auto 100%;
-    /*font-family: 'Noto Sans TC', sans-serif;*/
+    url("../img/2-5.jpg") right center / auto 100%;
     color: #FFFFFF;
 }
 
 .story2half-content {
     height: 100%;
-    /*display: flex;*/
-    /*justify-content: flex-start;*/
-    /*align-items: center;*/
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -254,18 +231,13 @@ background-color: #f6fdff;
     font-size: 18px;
 }
 
-.story2half-content h3{
-    /*font-family: 'Playball', cursive;*/
-    /*font-family: 'Parisienne', cursive;*/
+.story2half-content h3 {
     font-family: 'Great Vibes', cursive;
     font-style: italic;
-    /*text-indent: 20px;*/
     margin-bottom: 30px;
     font-size: 55px;
-    text-shadow: 0px 4px 3px rgba(0,0,0,0.4), 0px 8px 13px rgba(0,0,0,0.1),0px 18px 23px rgba(0,0,0,0.1);
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
     display: block;
-    /*border-right: #FFFFFF 1.5px solid;*/
-    /*border-left: #FFFFFF 2.5px solid;*/
 }
 
 /*2.5 Story end*/
@@ -299,13 +271,11 @@ background-color: #f6fdff;
     left: 35%;
     opacity: 0;
     transition: 2s;
-
 }
 
 .third-story-photo-center-fade-out {
     opacity: 0;
     transition: 1s;
-
 }
 
 .third-story-photo-right-fade-out {
@@ -313,43 +283,17 @@ background-color: #f6fdff;
     position: relative;
     right: 35%;
     transition: 3s;
-
 }
 
 /*Third Story end*/
-
-/*Fourth Story start*/
-
-.fourth-story-item {
-    max-width: 30%;
-}
-
-.fourth-story-content {
-    display: block;
-    opacity: 1;
-    transition: 1s;
-    line-height: 1.5em;
-    /*margin: 20px;*/
-}
-
-.fourth-story-content-fade-out {
-    opacity: 0;
-    transition: 1s;
-
-}
-
-/*Fourth Story end*/
 
 /*Let the Story Tell start*/
 
 .let-the-story-tell {
     background: url("../img/5-let-the-story-tell.jpg");
-    /*background: url("../img/DSC_0664-1.jpg");*/
-    /*background-position:0 -150px ;*/
     background-size: cover;
     width: 100%;
     height: 100vh;
-    /*height: 1000px;*/
     position: relative;
 }
 
@@ -362,20 +306,8 @@ background-color: #f6fdff;
     font-size: 24px;
     line-height: 1.5em;
     padding: 20px;
-
     color: #FFFFFF;
-    text-shadow: 0px 4px 3px rgba(0,0,0,0.4), 0px 8px 13px rgba(0,0,0,0.1),0px 18px 23px rgba(0,0,0,0.1);
-
-
-    /*background: hsla(0, 0%, 100%, .1);*/
-    /*overflow: hidden;*/
-    /*border-radius: .3em;*/
-    /*box-shadow: 0 0 0 1px hsla(0, 0%, 100%, .3) inset,*/
-    /*0 .5em 1em rgba(0, 0, 0, 0.6);*/
-
-
-
-    /*text-shadow: 0 1px 1px hsla(0,0%,100%,.3);*/
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.4), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
 }
 
 .let-the-story-tell-content:after {
@@ -407,7 +339,6 @@ background-color: #f6fdff;
 
 .action-title h3 {
     text-align: center;
-
     font-size: 28px;
     line-height: 1.5em;
 }
@@ -428,8 +359,6 @@ background-color: #f6fdff;
 
 .countdown {
     background: url("../img/6-countdown.jpg");
-
-    /*background: url("../img/DSC_0899-1.jpg");*/
     background-size: cover;
     width: 100%;
     height: 600px;
@@ -454,23 +383,19 @@ background-color: #f6fdff;
 }
 
 .countdown-number {
-    /*background-color: #FFFFFF;*/
     background-color: #84b9af;
-color: #FFFFFF;
+    color: #FFFFFF;
     border-radius: 50%;
     width: 100px;
     height: 100px;
     text-align: center;
     line-height: 100px;
-    /*color: #3D1101;*/
     font-size: 32px;
     margin-bottom: 20px;
 }
 
 .countdown-unit {
-    /*color: #FFFFFF;*/
     color: #84b9af;
-
     font-size: 32px;
 }
 
@@ -484,11 +409,6 @@ color: #FFFFFF;
     max-width: 1440px;
     display: flex;
     justify-content: space-evenly;
-    /*background-color: #7d202a;*/
-    /*background-color: #3fd1ea;*/
-    /*background-color: #9cd4c6;*/
-    /*background-color: #cdeadd;*/
-    /*background-color: #649389;*/
     background-color: #84b9af;
 }
 
@@ -496,20 +416,17 @@ color: #FFFFFF;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /*padding: 30px 0;*/
     margin-left: 50px;
 }
 
 .datetime-info-group {
-    margin-bottom: 30px;
+    margin: 15px 0;
 }
-.no-mar-down{
-    margin-bottom: 0;
-}
+
 .datetime-info-group h2, .datetime-info-group h3 {
     line-height: 1.3em;
     color: #FFFFFF;
-    text-shadow: 0px 4px 3px rgba(0,0,0,0.1), 0px 8px 13px rgba(0,0,0,0.1),0px 18px 23px rgba(0,0,0,0.1);
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.1), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
 }
 
 .datetime-info-group h2 {
@@ -532,11 +449,3 @@ color: #FFFFFF;
 }
 
 /*Footer end*/
-
-.first-story-content, .second-story-content ,.story2half-content,.let-the-story-tell-content, .action-title h3,.datetime-info-group h2,.datetime-info-group h3{
-    font-family: 'GenYoMin-R', serif;
-}
-
-.banner-title h1{
-    font-family: 'Playball', cursive;
-}

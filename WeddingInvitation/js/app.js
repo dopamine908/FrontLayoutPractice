@@ -7,32 +7,37 @@ $(document).ready(function () {
 
 function showScroll() {
     var scrollVal = $(this).scrollTop();
-    // console.log(scrollVal);
+
+    firstStoryAnimation(scrollVal);
+    secondStoryAnimation(scrollVal);
+    thirdStoryAnimation(scrollVal);
+}
+
+function firstStoryAnimation(scrollVal) {
     var first_story_height_distance = $('.story:nth-child(1) *').offset().top - 600;
     if (scrollVal >= first_story_height_distance) {
         $('.first-story-lower-photo-fade-out').removeClass('first-story-lower-photo-fade-out');
         $('.first-story-top-photo-fade-out').removeClass('first-story-top-photo-fade-out');
         $('.first-story-content-fade-out').removeClass('first-story-content-fade-out');
     }
+}
+
+function secondStoryAnimation(scrollVal) {
     var second_story_height_distance = $('.story:nth-child(2) *').offset().top - 600;
     if (scrollVal >= second_story_height_distance) {
         $('.second-story-lower-photo-fade-out').removeClass('second-story-lower-photo-fade-out');
         $('.second-story-top-photo-fade-out').removeClass('second-story-top-photo-fade-out');
         $('.second-story-content-fade-out').removeClass('second-story-content-fade-out');
     }
-    // var third_story_height_distance = $('.story:nth-child(3) *').offset().top - 600;
-    var third_story_height_distance = $('.third-story-photo-left').offset().top - 600;
+}
 
+function thirdStoryAnimation(scrollVal) {
+    var third_story_height_distance = $('.third-story-photo-left').offset().top - 600;
     if (scrollVal >= third_story_height_distance) {
         $('.third-story-photo-left-fade-out').removeClass('third-story-photo-left-fade-out');
         $('.third-story-photo-center-fade-out').removeClass('third-story-photo-center-fade-out');
         $('.third-story-photo-right-fade-out').removeClass('third-story-photo-right-fade-out');
     }
-    // var fourth_story_height_distance = $('.story:nth-child(4) *').offset().top - 600;
-    //
-    // if (scrollVal >= fourth_story_height_distance) {
-    //     $('.fourth-story-content-fade-out').removeClass('fourth-story-content-fade-out');
-    // }
 }
 
 function fadein() {
@@ -84,7 +89,6 @@ function countDown() {
         setCountDownTimer();
     }, 1000)
 }
-
 
 function setCountDownTimer() {
     setLastDay();
