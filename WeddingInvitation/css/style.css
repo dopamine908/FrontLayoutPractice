@@ -404,12 +404,15 @@ body {
 /*Action Info start*/
 
 .action-info {
+    background-color: #84b9af;
+}
+
+.action-info-main {
     margin: 0 auto;
     padding: 50px 0;
     max-width: 1440px;
     display: flex;
     justify-content: space-evenly;
-    background-color: #84b9af;
 }
 
 .datetime-info {
