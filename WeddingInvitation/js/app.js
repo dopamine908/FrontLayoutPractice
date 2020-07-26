@@ -3,6 +3,10 @@ $(document).ready(function () {
         showScroll();
     });
     countDown();
+    $(window).resize(function () {
+        setMobileMapSize();
+
+    });
 });
 
 function showScroll() {
@@ -127,4 +131,14 @@ function getOffsetTime() {
     var WeddingDateTime = getWeddingDateTime();
     // ** 以秒為單位
     return (WeddingDateTime - Now) / 1000;
+}
+
+function setMobileMapSize() {
+    var window_width = $(window).width();
+    console.log(window_width);
+    var new_iframe_width = window_width * 0.8;
+    var new_iframe_height = 400;
+    if (window_width <= 1025) {
+        $('.map iframe').width(new_iframe_width).height(new_iframe_height);
+    }
 }
