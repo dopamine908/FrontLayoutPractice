@@ -129,11 +129,12 @@
 
     /*Let the Story Tell end*/
     /*Count Down start*/
-    .countdown {
-        background: url("../img/3-center.jpg") center;
-        background-attachment: fixed;
-        background-size: cover;
-    }
+    
+    /*.countdown {*/
+    /*    background: url("../img/3-center.jpg") center;*/
+    /*    background-attachment: fixed;*/
+    /*    background-size: cover;*/
+    /*}*/
 
     /*Count Down end*/
     /*Action Info start*/
