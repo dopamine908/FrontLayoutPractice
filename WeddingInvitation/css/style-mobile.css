@@ -77,8 +77,7 @@
     /*2.5 Story start*/
     .story2half {
         width: 100%;
-        /*background: url("../img/DSC_0934-1.jpg") center;*/
-        background: url("../img/DSC_0939-1.jpg") center;
+        background: url("../img/2-5-mobile.jpg") center;
         background-size: cover;
         color: #FFFFFF;
         display: flex;
@@ -94,8 +93,7 @@
     /*2.5 Story end*/
     /*Let the Story Tell start*/
     .let-the-story-tell {
-        /*background: url("../img/DSC_0753-2.jpg") center;*/
-        background: url("../img/DSC_0757-2.jpg") center;
+        background: url("../img/6-let-the-story-tell-mobile.jpg") center;
         background-size: cover;
         width: 100%;
         height: 100vh;
@@ -129,7 +127,7 @@
 
     /*Let the Story Tell end*/
     /*Count Down start*/
-    
+
     /*.countdown {*/
     /*    background: url("../img/3-center.jpg") center;*/
     /*    background-attachment: fixed;*/
