@@ -62,6 +62,14 @@
         height: auto;
     }
 
+    .first-story-top-layer-photo {
+        margin: 0;
+    }
+
+    .first-story-top-photo-fade-out {
+        margin: 0;
+    }
+
     /*First Story end*/
     /*Second Story start*/
     .second-story {
@@ -71,6 +79,16 @@
 
     .second-story-photo {
         height: auto;
+    }
+
+    .second-story-lower-layer-photo {
+        transition: 2s;
+        margin: 0 0 20px;
+    }
+
+    .second-story-lower-photo-fade-out {
+        margin: 0;
+        transition: 3s;
     }
 
     /*Second Story end*/
@@ -114,26 +132,17 @@
     }
 
     .let-the-story-tell-content:after {
-        content: '';
-        position: absolute;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
-        filter: blur(10px);
-        z-index: -1;
-        margin: -10px;
+
+        margin: 0;
     }
 
     /*Let the Story Tell end*/
     /*Count Down start*/
-
     /*.countdown {*/
     /*    background: url("../img/3-center.jpg") center;*/
     /*    background-attachment: fixed;*/
     /*    background-size: cover;*/
     /*}*/
-
     /*Count Down end*/
     /*Action Info start*/
     .action-info-main {
