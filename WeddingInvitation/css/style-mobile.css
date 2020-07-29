@@ -119,7 +119,7 @@
         font-size: 16px;
     }
 
-    .story2half-content{
+    .story2half-content {
         justify-content: flex-end;
         margin-bottom: 30px;
     }
@@ -148,18 +148,10 @@
     }
 
     .let-the-story-tell-content:after {
-
         margin: 0;
     }
 
     /*Let the Story Tell end*/
-    /*Count Down start*/
-    /*.countdown {*/
-    /*    background: url("../img/3-center.jpg") center;*/
-    /*    background-attachment: fixed;*/
-    /*    background-size: cover;*/
-    /*}*/
-    /*Count Down end*/
     /*Action Info start*/
     .action-info-main {
         flex-direction: column;
