@@ -70,6 +70,10 @@
         margin: 0;
     }
 
+    .first-story-content {
+        font-size: 16px;
+    }
+
     /*First Story end*/
     /*Second Story start*/
     .second-story {
@@ -91,6 +95,10 @@
         transition: 3s;
     }
 
+    .second-story-content {
+        font-size: 16px;
+    }
+
     /*Second Story end*/
     /*2.5 Story start*/
     .story2half {
@@ -104,8 +112,16 @@
     }
 
     .story2half-content h3 {
-
         font-size: 30px;
+    }
+
+    .story2half-content p {
+        font-size: 16px;
+    }
+
+    .story2half-content{
+        justify-content: flex-end;
+        margin-bottom: 30px;
     }
 
     /*2.5 Story end*/
@@ -124,7 +140,7 @@
         left: 5%;
         bottom: 5%;
         z-index: 1;
-        font-size: 24px;
+        font-size: 16px;
         line-height: 1.5em;
         padding: 20px;
         color: #FFFFFF;
