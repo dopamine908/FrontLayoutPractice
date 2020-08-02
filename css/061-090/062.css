@@ -1,0 +1,32 @@
+.banner {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(110deg, #000000 50%, transparent 50%), url("https://picsum.photos/1920/1080");
+}
+.banner .banner-text {
+  height: 100vh;
+  padding-left: 10%;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.banner .banner-text h1 {
+  font-weight: bold;
+  font-size: 80px;
+}
+.banner .banner-text h2 {
+  font-weight: bold;
+  font-size: 53px;
+}
+.banner .banner-text .bottom-line-decorate {
+  border-bottom: #ffffff 1px solid;
+  padding-bottom: 24px;
+  margin-bottom: 23px;
+}
+.banner .banner-text p {
+  font-size: 22px;
+}
+
+/*# sourceMappingURL=062.css.map */
