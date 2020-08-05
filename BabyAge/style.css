@@ -1,0 +1,63 @@
+body {
+  background-color: #F8C3CD;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+
+.container {
+  max-width: 1024px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  font-weight: bold;
+}
+.container h1 {
+  font-size: 32px;
+  margin-top: 25px;
+  color: #785F63;
+}
+.container h2 {
+  margin-top: 25px;
+  font-size: 28px;
+  color: #785F63;
+}
+.container img {
+  margin-top: 25px;
+  width: 70%;
+}
+.container .age {
+  margin-top: 25px;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+}
+.container .age p {
+  text-align: center;
+}
+.container .age .count-age-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container .age .count-number {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #C49BA3;
+  font-size: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #785F63;
+}
+.container .age .count-unit {
+  margin-top: 15px;
+  font-size: 32px;
+  color: #785F63;
+}
+
+/*# sourceMappingURL=style.css.map */
