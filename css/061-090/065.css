@@ -1,0 +1,51 @@
+body {
+  background: linear-gradient(20deg, #1CA0A0, #3D5592);
+}
+
+.container {
+  max-width: 1440px;
+  margin: 0 auto;
+}
+.container ul {
+  display: flex;
+  flex-direction: column;
+}
+.container ul li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 30px 0;
+  position: relative;
+}
+.container ul li p {
+  display: block;
+  width: 400px;
+  background-color: rgba(177, 150, 147, 0.6);
+  padding: 20px 30px;
+  font-size: 20px;
+  z-index: 100;
+}
+.container ul .img-right {
+  flex-direction: row;
+}
+.container ul .img-right img {
+  position: relative;
+  left: 50px;
+}
+.container ul .img-right p {
+  position: relative;
+  right: 50px;
+}
+.container ul .img-left {
+  flex-direction: row-reverse;
+}
+.container ul .img-left img {
+  position: relative;
+  right: 50px;
+}
+.container ul .img-left p {
+  position: relative;
+  left: 50px;
+}
+
+/*# sourceMappingURL=065.css.map */
