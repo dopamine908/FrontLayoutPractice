@@ -23,7 +23,8 @@ function setDay() {
 }
 
 function getBabyBirthdayDateTime() {
-    return new Date(2020, 1, 19, 12, 0, 0, 0);
+    //2020.2.19生日，20開始才算是第一天
+    return new Date(2020, 1, 20, 12, 0, 0, 0);
 }
 
 function getOffsetTime() {
