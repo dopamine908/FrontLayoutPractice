@@ -19,7 +19,6 @@ body .container ul {
 }
 body .container ul .card-item {
   width: 400px;
-  height: 200px;
   display: flex;
   align-items: center;
   justify-content: center;
