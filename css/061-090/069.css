@@ -1,0 +1,30 @@
+body {
+  background-color: #86B3FF;
+}
+
+nav {
+  background-color: #907AFF;
+}
+nav ul {
+  display: flex;
+  padding: 15px 0 15px 30px;
+}
+nav ul .breadcrumb :after {
+  content: ">";
+  margin: 0 10px;
+  color: #ffffff;
+}
+nav ul li a {
+  font-size: 24px;
+  text-decoration: none;
+  color: #ffffff;
+  cursor: pointer;
+}
+nav ul li a:hover {
+  color: #FFD887;
+}
+nav ul li .active {
+  color: #FFD887;
+}
+
+/*# sourceMappingURL=069.css.map */
