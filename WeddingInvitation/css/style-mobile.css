@@ -178,6 +178,17 @@
     }
 
     /*Action Info end*/
+    /*Map Card start*/
+    .map-card h2 {
+        font-size: 24px;
+        margin: 25px 0;
+    }
+
+    .map-card img {
+        width: 80%;
+    }
+
+    /*Map Card end*/
     /*Footer start*/
     .footer {
         background-color: #FFFFFF;

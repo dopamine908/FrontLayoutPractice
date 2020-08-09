@@ -3,7 +3,7 @@ body {
     background-color: #f6fdff;
 }
 
-.first-story-content, .second-story-content, .story2half-content, .let-the-story-tell-content, .action-title h3, .datetime-info-group h2, .datetime-info-group h3 {
+.first-story-content, .second-story-content, .story2half-content, .let-the-story-tell-content, .action-title h3, .datetime-info-group h2, .datetime-info-group h3, .map-card h2 {
     font-family: 'Noto Serif TC', serif;
 }
 
@@ -441,6 +441,29 @@ body {
 }
 
 /*Action Info end*/
+
+/*Map Card start*/
+
+.map-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.map-card h2 {
+    text-shadow: 0px 4px 3px rgba(0, 0, 0, 0.1), 0px 8px 13px rgba(0, 0, 0, 0.1), 0px 18px 23px rgba(0, 0, 0, 0.1);
+    font-size: 40px;
+    text-align: center;
+    margin: 25px 0;
+}
+
+.map-card img {
+    width: 50%;
+    margin-bottom: 25px;
+}
+
+/*Map Card end*/
 
 /*Footer start*/
 
