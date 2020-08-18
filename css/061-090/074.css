@@ -1,0 +1,27 @@
+.side-bar {
+  transform: translateX(-100%);
+  position: relative;
+  transition: 0.5s;
+}
+.side-bar label {
+  position: absolute;
+  width: 40px;
+  height: 80px;
+  background-color: #000000;
+  color: #ffffff;
+  font-size: 40px;
+  line-height: 80px;
+  text-align: center;
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+  left: 100%;
+  top: 50%;
+  cursor: pointer;
+}
+
+#panel-switch:checked + .side-bar {
+  transform: translateX(0);
+  transition: 0.5s;
+}
+
+/*# sourceMappingURL=074.css.map */
