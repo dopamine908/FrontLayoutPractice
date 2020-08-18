@@ -1,0 +1,78 @@
+.container {
+  width: 100%;
+  height: 100vh;
+}
+.container .side-bar {
+  background: linear-gradient(30deg, #C26051, #B5558A, #A051C2);
+  height: 100vh;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.container .side-bar form {
+  margin: 50px 0;
+  display: flex;
+  justify-content: center;
+}
+.container .side-bar form input {
+  width: 200px;
+  height: 40px;
+  border: #ffffff 1px solid;
+  border-right: none;
+  background-color: transparent;
+  border-bottom-left-radius: 20px;
+  border-top-left-radius: 20px;
+  color: #ffffff;
+  padding: 0;
+  outline: none;
+  font-size: 18px;
+  text-indent: 1em;
+}
+.container .side-bar form input::placeholder {
+  color: #ffffff;
+  font-size: 18px;
+  text-indent: 1em;
+}
+.container .side-bar form i {
+  text-align: center;
+  line-height: 40px;
+  color: #ffffff;
+  width: 40px;
+  height: 40px;
+  border: #ffffff 1px solid;
+  border-left: none;
+  border-bottom-right-radius: 20px;
+  border-top-right-radius: 20px;
+  background-color: transparent;
+}
+.container .side-bar ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  width: 90%;
+}
+.container .side-bar ul li {
+  width: 100%;
+}
+.container .side-bar ul li a {
+  display: block;
+  padding: 15px 0;
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 20px;
+}
+.container .side-bar ul li a i {
+  font-size: 0;
+}
+.container .side-bar ul li:hover i {
+  font-size: 20px;
+  transition: 0.3s;
+}
+.container .side-bar ul .bottom-division {
+  border-bottom: #ffffff 1px solid;
+}
+
+/*# sourceMappingURL=073.css.map */
