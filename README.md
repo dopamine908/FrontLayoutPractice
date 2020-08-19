@@ -78,3 +78,4 @@
 - [073 - 金魚都能懂的這個網頁畫面怎麼切 Day14 : 側邊選單怎麼切](https://dopamine908.github.io/FrontLayoutPractice/html/061-090/073.html)
 - [074 - 金魚都能懂的這個網頁畫面怎麼切 Day15 : 收合式側邊選單](https://dopamine908.github.io/FrontLayoutPractice/html/061-090/074.html)
 - [075 - 金魚都能懂的這個網頁畫面怎麼切 Day16 : 多層次收合選單](https://dopamine908.github.io/FrontLayoutPractice/html/061-090/075.html)
+- [076 - 金魚都能懂的這個網頁畫面怎麼切 Day17 : 訂單進度條](https://dopamine908.github.io/FrontLayoutPractice/html/061-090/076.html)

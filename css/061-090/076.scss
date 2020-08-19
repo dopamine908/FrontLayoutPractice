@@ -1,0 +1,57 @@
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(50deg, #6E3022, #FF9982, #BA604C);
+
+  ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    li {
+      position: relative;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      background: linear-gradient(100deg, #a9a9a9, #a7a7a7);
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+
+      i {
+        font-size: 50px;
+      }
+
+      p {
+        font-size: 24px;
+      }
+    }
+
+    .finish {
+      background: linear-gradient(100deg, #176E4E, #4CBA92);
+
+    }
+
+    .not-first-step {
+      margin-left: 100px;
+    }
+
+    .not-first-step:before {
+      content: '';
+      width: 100px;
+      height: 10px;
+      background-color: #a9a9a9;
+      position: relative;
+      right: 100px;
+      top: 35px;
+    }
+
+    .line-light:before {
+      background: linear-gradient(100deg, #176E4E, #4CBA92);
+    }
+  }
+}
+
