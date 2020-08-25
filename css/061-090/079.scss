@@ -1,0 +1,45 @@
+
+.container {
+  position: relative;
+  padding-top: 20px;
+
+  .timeline-item {
+    margin: 100px auto 0;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #000000;
+
+    .text-content {
+      width: 500px;
+      background-color: #a9a9a9;
+      position: relative;
+      bottom: 80px;
+      border-radius: 10px;
+      padding: 20px;
+    }
+
+    .left {
+      left: 50px;
+    }
+
+    .right {
+      right: 570px;
+    }
+  }
+
+  .timeline-item:before {
+    display: block;
+    content: '';
+    width: 5px;
+    height: 100px;
+    background-color: #ff0000;
+    position: relative;
+    left: 12.5px;
+    top: 30px
+  }
+
+  .top-item {
+    margin-top: 0;
+  }
+}

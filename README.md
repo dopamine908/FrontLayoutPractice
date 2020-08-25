@@ -81,3 +81,4 @@
 - [076 - 金魚都能懂的這個網頁畫面怎麼切 Day17 : 訂單進度條](https://dopamine908.github.io/FrontLayoutPractice/html/061-090/076.html)
 - [077 - 金魚都能懂的這個網頁畫面怎麼切 Day18 : 登入表單](https://dopamine908.github.io/FrontLayoutPractice/html/061-090/077.html)
 - [078 - 金魚都能懂的這個網頁畫面怎麼切 Day19 : 對話紀錄視窗](https://dopamine908.github.io/FrontLayoutPractice/html/061-090/078.html)
+- [079 - 金魚都能懂的這個網頁畫面怎麼切 Day20 : 時間軸](https://dopamine908.github.io/FrontLayoutPractice/html/061-090/079.html)

@@ -1,0 +1,40 @@
+.container {
+  position: relative;
+  padding-top: 20px;
+}
+.container .timeline-item {
+  margin: 100px auto 0;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #000000;
+}
+.container .timeline-item .text-content {
+  width: 500px;
+  background-color: #a9a9a9;
+  position: relative;
+  bottom: 80px;
+  border-radius: 10px;
+  padding: 20px;
+}
+.container .timeline-item .left {
+  left: 50px;
+}
+.container .timeline-item .right {
+  right: 570px;
+}
+.container .timeline-item:before {
+  display: block;
+  content: "";
+  width: 5px;
+  height: 100px;
+  background-color: #ff0000;
+  position: relative;
+  left: 12.5px;
+  top: 30px;
+}
+.container .top-item {
+  margin-top: 0;
+}
+
+/*# sourceMappingURL=079.css.map */
