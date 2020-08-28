@@ -1,0 +1,41 @@
+.container {
+  width: 100%;
+  margin-top: 50px;
+}
+.container h1 {
+  width: 400px;
+  height: 400px;
+  float: right;
+  font-size: 100px;
+  position: relative;
+  z-index: 1;
+}
+.container h1:after {
+  width: 200px;
+  height: 200px;
+  content: "";
+  display: block;
+  border: #d9d7d7 30px solid;
+  position: absolute;
+  top: 0;
+  z-index: -2;
+  transform: rotate(15deg);
+}
+.container h1:before {
+  width: 150px;
+  height: 150px;
+  content: "";
+  display: block;
+  background-color: #fffacd;
+  position: absolute;
+  top: 20px;
+  right: 200px;
+  transform: rotate(30deg);
+  z-index: -1;
+}
+.container .text {
+  column-count: 2;
+  column-gap: 30px;
+}
+
+/*# sourceMappingURL=086.css.map */
