@@ -1,0 +1,26 @@
+.container {
+  width: 100%;
+  position: relative;
+  margin-top: 100px;
+}
+.container h1 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  text-align: center;
+  font-size: 120px;
+  display: block;
+  background-color: #aaaaaa;
+  width: 30%;
+  height: 400px;
+  margin: auto;
+}
+.container .text {
+  column-count: 2;
+  font-size: 24px;
+  column-gap: 550px;
+}
+
+/*# sourceMappingURL=084.css.map */

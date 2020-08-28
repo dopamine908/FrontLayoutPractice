@@ -86,3 +86,4 @@
 - [081 - 金魚都能懂的這個網頁畫面怎麼切 Day24 : 文字排版(1)](https://dopamine908.github.io/FrontLayoutPractice/html/061-090/081.html)
 - [082 - 金魚都能懂的這個網頁畫面怎麼切 Day24 : 文字排版(2)](https://dopamine908.github.io/FrontLayoutPractice/html/061-090/082.html)
 - [083 - 金魚都能懂的這個網頁畫面怎麼切 Day24 : 文字排版(3)](https://dopamine908.github.io/FrontLayoutPractice/html/061-090/083.html)
+- [084 - 金魚都能懂的這個網頁畫面怎麼切 Day25 : 文字排版(1)](https://dopamine908.github.io/FrontLayoutPractice/html/061-090/084.html)
