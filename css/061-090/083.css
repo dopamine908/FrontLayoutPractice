@@ -1,0 +1,32 @@
+.container {
+  width: 80%;
+  margin: 30px auto;
+}
+.container h1 {
+  font-size: 150px;
+  font-weight: bold;
+  color: #aaaaaa;
+  position: relative;
+  padding-left: 50px;
+  z-index: 1;
+}
+.container h1:after {
+  z-index: -1;
+  content: "";
+  width: 1300px;
+  height: 100px;
+  background-color: rgba(220, 220, 220, 0.3);
+  position: absolute;
+  top: 30px;
+  left: 50px;
+  display: block;
+}
+.container .text {
+  column-count: 2;
+  margin-top: 30px;
+}
+.container .text p:first-letter {
+  font-size: 32px;
+}
+
+/*# sourceMappingURL=083.css.map */
