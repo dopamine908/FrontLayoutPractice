@@ -1,0 +1,28 @@
+.container {
+  width: 100%;
+
+  h1 {
+    width: 400px;
+    height: 400px;
+    float: right;
+    font-size: 100px;
+    position: relative;
+    z-index: 1;
+  }
+
+  h1:after {
+    width: 200px;
+    height: 200px;
+    content: '';
+    display: block;
+    border: #d9d7d7 30px solid;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+  }
+
+  .text {
+    column-count: 2;
+    column-gap: 30px;
+  }
+}
