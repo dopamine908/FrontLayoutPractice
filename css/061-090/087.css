@@ -1,0 +1,20 @@
+.container {
+  margin-top: 50px;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+.container h1 {
+  writing-mode: vertical-rl;
+  font-size: 60px;
+  display: block;
+  height: 350px;
+}
+.container .text {
+  width: 80%;
+  column-count: 2;
+  column-gap: 30px;
+  box-shadow: -10px 10px 10px #aaaaaa;
+}
+
+/*# sourceMappingURL=087.css.map */
