@@ -1,0 +1,29 @@
+.container {
+  width: 80%;
+  margin: 50px auto;
+  display: flex;
+  justify-content: flex-end;
+  box-shadow: 0 0 20px #aaaaaa;
+  overflow: hidden;
+  position: relative;
+  padding: 30px;
+}
+.container .text {
+  column-count: 2;
+  width: 50%;
+}
+.container h1 {
+  color: #ffffff;
+  text-shadow: 10px 10px 10px #aaaaaa;
+  font-weight: bold;
+  font-size: 200px;
+  width: 100%;
+  flex-shrink: 0;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  line-height: 100px;
+  z-index: -1;
+}
+
+/*# sourceMappingURL=089.css.map */
