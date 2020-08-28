@@ -83,4 +83,5 @@
 - [078 - 金魚都能懂的這個網頁畫面怎麼切 Day19 : 對話紀錄視窗](https://dopamine908.github.io/FrontLayoutPractice/html/061-090/078.html)
 - [079 - 金魚都能懂的這個網頁畫面怎麼切 Day20 : 時間軸](https://dopamine908.github.io/FrontLayoutPractice/html/061-090/079.html)
 - [080 - 金魚都能懂的這個網頁畫面怎麼切 Day21 : 旋轉拼接方塊](https://dopamine908.github.io/FrontLayoutPractice/html/061-090/080.html)
-- [081 - 金魚都能懂的這個網頁畫面怎麼切 Day21 : 文字排版(1)](https://dopamine908.github.io/FrontLayoutPractice/html/061-090/080.html)
+- [081 - 金魚都能懂的這個網頁畫面怎麼切 Day24 : 文字排版(1)](https://dopamine908.github.io/FrontLayoutPractice/html/061-090/081.html)
+- [082 - 金魚都能懂的這個網頁畫面怎麼切 Day24 : 文字排版(2)](https://dopamine908.github.io/FrontLayoutPractice/html/061-090/082.html)

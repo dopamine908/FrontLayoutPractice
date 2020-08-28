@@ -1,0 +1,20 @@
+.container {
+  margin-top: 30px;
+  width: 100%;
+  background-color: #ffffff;
+}
+.container h1 {
+  font-size: 60px;
+  font-weight: bold;
+  display: block;
+  background-color: #ffffff;
+  float: left;
+  width: 400px;
+  border-right: #000000 5px solid;
+  margin-right: 20px;
+}
+.container p {
+  font-size: 18px;
+}
+
+/*# sourceMappingURL=082.css.map */
