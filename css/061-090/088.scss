@@ -1,0 +1,27 @@
+.container {
+  width: 80%;
+  margin: 50px auto;
+  display: flex;
+  justify-content: flex-end;
+  box-shadow: 0 0 20px #aaaaaa;
+  overflow: hidden;
+  position: relative;
+  padding: 30px;
+
+  .text {
+    column-count: 2;
+    width: 50%;
+  }
+
+  h1 {
+    color: rgba(200, 200, 200, 0.3);
+    font-weight: bold;
+    font-size: 200px;
+    width: 100%;
+    flex-shrink: 0;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    line-height: 100px;
+  }
+}
