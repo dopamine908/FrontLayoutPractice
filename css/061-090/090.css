@@ -1,0 +1,33 @@
+.container {
+  width: 80%;
+  margin: 50px auto;
+}
+.container h1 {
+  text-align: center;
+  font-size: 80px;
+  position: relative;
+  margin-bottom: 30px;
+}
+.container h1:before {
+  content: "";
+  width: 100px;
+  height: 5px;
+  background-color: #000000;
+  position: absolute;
+  left: calc(50% - 50px);
+}
+.container h1:after {
+  content: "";
+  width: 100px;
+  height: 5px;
+  background-color: #000000;
+  position: absolute;
+  bottom: -10px;
+  right: calc(50% - 50px);
+}
+.container p {
+  margin-bottom: 10px;
+  font-size: 18px;
+}
+
+/*# sourceMappingURL=090.css.map */
