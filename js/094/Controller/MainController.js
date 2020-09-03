@@ -49,7 +49,7 @@ export class MainController {
     renderPage(select_area_name, assign_page, view_page_type) {
         if (select_area_name === 'not_choose') {
             this.PageData = new PaginationService(this.ParkingRepository.getAllParking());
-            select_area_name = 'all area';
+            select_area_name = '高雄全區';
         } else {
             this.PageData = new PaginationService(this.ParkingRepository.getSearchArea(select_area_name));
         }

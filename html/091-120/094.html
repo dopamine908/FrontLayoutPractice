@@ -6,20 +6,20 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="../../css/reset.css">
-<!--    <link rel="stylesheet" href="../../css/style.css">-->
     <link rel="stylesheet" href="../../css/091-120/094.css">
+    <script src="https://kit.fontawesome.com/439531aa1b.js" crossorigin="anonymous"></script>
     <title>js beginner hw-2</title>
 </head>
 <body>
 <div class="container">
     <div class="banner" id="top">
-        <h1>Lorem ipsum dolor.</h1>
+        <h1>高雄停車場資訊</h1>
 
         <select name="" id="area_selector" class="selector">
-            <option value="not_choose" class="option">please choose</option>
+            <option value="not_choose" class="option">請選擇行政區</option>
         </select>
         <div class="hot-select">
-            <h2>Lorem ipsum.</h2>
+            <h2>熱門行政區</h2>
             <ul class="hot-select-list">
                 <!--                <li class="hot-select-item">lorem</li>-->
             </ul>
@@ -27,21 +27,21 @@
     </div>
     <div class="parking-show">
         <div class="division"></div>
-        <h2 class="area">all area</h2>
+        <h2 class="area">高雄全區</h2>
         <ul class="parking-list">
-            <!--            <li class="parking-item">-->
-            <!--                <div class="preview-banner">-->
-            <!--                    <img src="https://picsum.photos/seed/picsum/460/150" alt="">-->
-            <!--                    <h3 class="preview-title">Lorem.</h3>-->
-            <!--                    <h4 class="preview-area">Lorem.</h4>-->
-            <!--                </div>-->
-            <!--                <div class="preview-content">-->
-            <!--                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>-->
-            <!--                    <p>Lorem ipsum dolor sit amet.</p>-->
-            <!--                    <p>Lorem ipsum dolor.</p>-->
-            <!--                    <p>Lorem.</p>-->
-            <!--                </div>-->
-            <!--            </li>-->
+            <li class="parking-item">
+                <div class="preview-banner">
+                    <img src="https://picsum.photos/id/299/460/150" alt="">
+                    <h3 class="preview-title">岡山國中</h3>
+                    <h4 class="preview-area">岡山區</h4>
+                </div>
+                <div class="preview-content">
+                    <p><i class="fas fa-flag"></i>岡山區</p>
+                    <p><i class="fas fa-parking"></i>岡山國中</p>
+                    <p><i class="fas fa-map-marked-alt"></i>岡燕路238號</p>
+                    <p><i class="fas fa-hand-holding-usd"></i>車位數量</p>
+                </div>
+            </li>
         </ul>
         <div class="pagination">
             <ul class="pagination-list">
@@ -54,9 +54,10 @@
         <a href="#top"></a>
     </div>
     <footer class="footer">
-        <h3>Lorem ipsum.</h3>
-        <h3 class="data-source">Lorem ipsum dolor sit amet.</h3>
+        <h3>高雄停車網</h3>
+        <h3 class="data-source">資料來源：高雄市政府</h3>
     </footer>
+    <a href="#top" class="go-top"><img src="../../img/094/btn_goTop.png" alt=""></a>
 </div>
 <script type="module" src="../../js/094/app.js"></script>
 </body>

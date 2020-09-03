@@ -30,6 +30,5 @@ export class Parking {
         return AllParking.filter(function (parking_data) {
             return parking_data['行政區'] === area_name;
         });
-
     }
 }

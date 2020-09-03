@@ -25,13 +25,16 @@ export class ParkingList {
         PreviewContentDom.classList.add('preview-content');
 
         let p_area = document.createElement('p');
-        p_area.textContent = area;
+        p_area.insertAdjacentHTML('afterbegin', '<i class="fas fa-flag"></i>' + area);
+
         let p_place = document.createElement('p');
-        p_place.textContent = place;
+        p_place.insertAdjacentHTML('afterbegin', '<i class="fas fa-parking"></i>' + place);
+
         let p_address = document.createElement('p');
-        p_address.textContent = address;
+        p_address.insertAdjacentHTML('afterbegin', '<i class="fas fa-map-marked-alt"></i>' + address);
+
         let p_parking_count = document.createElement('p');
-        p_parking_count.textContent = parking_count;
+        p_parking_count.insertAdjacentHTML('afterbegin', '<i class="fas fa-hand-holding-usd"></i>' + parking_count);
 
         PreviewContentDom.appendChild(p_area);
         PreviewContentDom.appendChild(p_place);

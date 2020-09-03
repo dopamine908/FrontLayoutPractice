@@ -40,8 +40,8 @@ function giveAreaSelectorEventListener() {
     document.querySelector('#area_selector').addEventListener('change', function (event) {
         let select_area_name = event.target.value;
         let current_page = 1;
+        
         MainController.addHotSelect(select_area_name);
-
         MainController.renderPage(select_area_name, current_page, 'assign');
     });
 }

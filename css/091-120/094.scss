@@ -9,7 +9,8 @@
   .banner {
     width: 100%;
     height: 380px;
-    background: url("https://picsum.photos/id/320/1920/380");
+    background: url("../../img/094/Hero.png");
+    background-size: cover;
     display: flex;
     justify-content: flex-start;
     align-items: center;
@@ -122,6 +123,15 @@
 
           p {
             margin-bottom: 10px;
+
+            i {
+              font-size: 15px;
+              margin: 0 5px;
+            }
+          }
+
+          p:last-child {
+            text-align: right;
           }
         }
       }
@@ -168,4 +178,10 @@
       color: #FFD366;
     }
   }
+}
+
+.go-top {
+  position: fixed;
+  right: 5%;
+  bottom: 100px;
 }
