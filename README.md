@@ -95,3 +95,5 @@
 - [090 - 金魚都能懂的這個網頁畫面怎麼切 Day27 : 文字排版(2)](https://dopamine908.github.io/FrontLayoutPractice/html/061-090/090.html)
 - [091 - 金魚都能懂的這個網頁畫面怎麼切 Day27 : 文字排版(3)](https://dopamine908.github.io/FrontLayoutPractice/html/091-120/091.html)
 - [092 - 金魚都能懂的這個網頁畫面怎麼切 Day27 : 文字排版(4)](https://dopamine908.github.io/FrontLayoutPractice/html/091-120/092.html)
+- [093 - 六角JS初期課程 - 最終作業(1) ： BMI Calculator](https://dopamine908.github.io/FrontLayoutPractice/html/091-120/093.html)
+- [094 - 六角JS初期課程 - 最終作業(2) ： 高雄停車場資訊](https://dopamine908.github.io/FrontLayoutPractice/html/091-120/094.html)
