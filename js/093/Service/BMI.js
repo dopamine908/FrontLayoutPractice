@@ -22,7 +22,6 @@ export class BMI {
     }
 
     setBMILevel() {
-        // console.log(this.bmi_value);
         if (this.bmi_value <= 18.5) {
             this.bmi_level = 'too_light';
         } else if (this.bmi_value > 18.5 && this.bmi_value <= 25) {

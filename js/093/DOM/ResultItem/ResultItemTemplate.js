@@ -1,10 +1,3 @@
-// import {OK} from "./OK";
-// import {TooLight} from "./TooLight";
-// import {HeavyLevel1} from "./HeavyLevel1";
-// import {HeavyLevel2} from "./HeavyLevel2";
-// import {HeavyLevel3} from "./HeavyLevel3";
-// import {HeavyLevel4} from "./HeavyLevel4";
-
 export class ResultItemTemplate {
     constructor(BMI) {
         this.generateLi();

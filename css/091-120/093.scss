@@ -1,6 +1,13 @@
 $main_deep_gray: #424242;
 $secondary_yellow: #FFD366;
 
+$bmi_ok: #86D73F;
+$bmi_too_light: #31BAF9;
+$bmi_heavy_level_1: #FF982D;
+$bmi_heavy_level_2: #FF6C03;
+$bmi_heavy_level_3: #FF6C03;
+$bmi_heavy_level_4: #FF1200;
+
 .container {
   width: 100%;
   display: flex;
@@ -71,6 +78,57 @@ $secondary_yellow: #FFD366;
         font-size: 24px;
         color: $main_deep_gray;
       }
+
+      .result-show {
+        margin-left: 50px;
+
+        position: relative;
+
+        align-self: center;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+
+        .bmi-result-value {
+          width: 110px;
+          height: 110px;
+          border-radius: 50%;
+          background-color: transparent;
+          font-size: 32px;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          text-align: center;
+
+          .bmi-result-title {
+            font-size: 14px;
+          }
+
+          .restart {
+            border: $main_deep_gray 3px solid;
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            position: absolute;
+            left: 80px;
+            bottom: 0;
+            cursor: pointer;
+
+            img {
+              width: 15px;
+              height: 15px;
+              margin: auto;
+            }
+          }
+        }
+
+        .bmi-result-level {
+          font-size: 32px;
+          margin-left: 18px;
+        }
+      }
     }
   }
 
@@ -125,32 +183,109 @@ $secondary_yellow: #FFD366;
   }
 }
 
+.display-none {
+  display: none;
+}
+
 .bmi-ok {
-  border-left: #86D73F 7px solid;
+  border-left: $bmi_ok 7px solid;
 }
 
 .bmi-too-light {
-  border-left: #31BAF9 7px solid;
+  border-left: $bmi_too_light 7px solid;
 
 }
 
 .bmi-heavy-level-1 {
-  border-left: #FF982D 7px solid;
-
+  border-left: $bmi_heavy_level_1 7px solid;
 }
 
 .bmi-heavy-level-2 {
-  border-left: #FF6C03 7px solid;
-
+  border-left: $bmi_heavy_level_2 7px solid;
 }
 
 .bmi-heavy-level-3 {
-  border-left: #FF6C03 7px solid;
-
+  border-left: $bmi_heavy_level_3 7px solid;
 }
 
 .bmi-heavy-level-4 {
-  border-left: #FF1200 7px solid;
-
+  border-left: $bmi_heavy_level_4 7px solid;
 }
 
+.result-too-light-circle {
+  color: $bmi_too_light;
+  border: $bmi_too_light 6px solid;
+}
+
+.too-light-restart {
+  background-color: $bmi_too_light;
+}
+
+.too-light-font-color {
+  color: $bmi_too_light;
+}
+
+.result-ok-circle {
+  color: $bmi_ok;
+  border: $bmi_ok 6px solid;
+}
+
+.ok-restart {
+  background-color: $bmi_ok;
+}
+
+.ok-font-color {
+  color: $bmi_ok;
+}
+
+.result-heavy-level-1-circle {
+  color: $bmi_heavy_level_1;
+  border: $bmi_heavy_level_1 6px solid;
+}
+
+.heavy-level-1-restart {
+  background-color: $bmi_heavy_level_1;
+}
+
+.font-heavy-level-1-color {
+  color: $bmi_heavy_level_1;
+}
+
+.result-heavy-level-2-circle {
+  color: $bmi_heavy_level_2;
+  border: $bmi_heavy_level_2 6px solid;
+}
+
+.heavy-level-2-restart {
+  background-color: $bmi_heavy_level_2;
+}
+
+.font-heavy-level-2-color {
+  color: $bmi_heavy_level_2;
+}
+
+.result-heavy-level-3-circle {
+  color: $bmi_heavy_level_3;
+  border: $bmi_heavy_level_3 6px solid;
+}
+
+.heavy-level-3-restart {
+  background-color: $bmi_heavy_level_3;
+}
+
+.font-heavy-level-3-color {
+  color: $bmi_heavy_level_3;
+}
+
+.result-heavy-level-4-circle {
+  color: $bmi_heavy_level_4;
+  border: $bmi_heavy_level_4 6px solid;
+}
+
+.heavy-level-4-restart {
+  background-color: $bmi_heavy_level_4;
+}
+
+.font-heavy-level-4-color {
+  color: $bmi_heavy_level_4;
+}
