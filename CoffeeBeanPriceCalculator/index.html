@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.1-compat/tailwind.min.css"
+          integrity="sha512-+WF6UMXHki/uCy0vATJzyA9EmAcohIQuwpNz0qEO+5UeE5ibPejMRdFuARSrl1trs3skqie0rY/gNiolfaef5w=="
+          crossorigin="anonymous"/>
+    <title>咖啡豆計算機</title>
+</head>
+<body>
+<div class="max-w-screen-xl mx-auto">
+    <!--    tool bar   -->
+    <div class="w-full flex justify-between item-center py-3 px-5">
+        <div class="flex justify-start">
+            <button class="mx-3 my-2 px-2 py-1 border-2 rounded-xl border-gray-400 fill-current text-gray-400 hover:text-green-600 hover:border-green-600">
+                <svg class="w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                     stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                          d="M12 6v6m0 0v6m0-6h6m-6 0H6"/>
+                </svg>
+            </button>
+            <div class="mx-3 my-2 flex justify-start item-center">
+                <label for="" class="self-center">折扣：</label>
+                <input type="number" class="border-2 rounded-l">
+            </div>
+        </div>
+        <div class="">
+            <button class="mx-3 my-2 px-5 py-1 border-2 rounded-xl border-gray-400 text-gray-400 hover:text-yellow-700 hover:border-yellow-700">
+                結算
+            </button>
+        </div>
+    </div>
+    <!--    table    -->
+    <ul class="mt-6">
+        <li class="bg-gray-100 flex justify-between items-center py-2 px-5 my-6 shadow-md rounded-xl">
+            <div>
+                <label for="">品項：</label>
+                <input type="text" class="border-2 rounded-l">
+            </div>
+            <div>
+                <label for="">牌價/每半磅：</label>
+                <input type="number" class="border-2 rounded-l">
+            </div>
+            <div>
+                <label for="">購買克數：</label>
+                <input type="number" class="border-2 rounded-l">
+            </div>
+            <button class="px-2 py-1 border-2 rounded-xl border-gray-400 fill-current text-gray-400 hover:text-red-400 hover:border-red-400">
+                <svg class="w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                     stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                          d="M19 7l-.867 12.142A2 2 0 0116.138 21H7.862a2 2 0 01-1.995-1.858L5 7m5 4v6m4-6v6m1-10V4a1 1 0 00-1-1h-4a1 1 0 00-1 1v3M4 7h16"/>
+                </svg>
+            </button>
+        </li>
+    </ul>
+</div>
+</body>
+</html>
