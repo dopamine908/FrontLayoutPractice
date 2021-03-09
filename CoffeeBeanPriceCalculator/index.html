@@ -8,6 +8,9 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.0.1-compat/tailwind.min.css"
           integrity="sha512-+WF6UMXHki/uCy0vATJzyA9EmAcohIQuwpNz0qEO+5UeE5ibPejMRdFuARSrl1trs3skqie0rY/gNiolfaef5w=="
           crossorigin="anonymous"/>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+            integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+            crossorigin="anonymous"></script>
     <title>咖啡豆計算機</title>
 </head>
 <body>
@@ -15,7 +18,8 @@
     <!--    tool bar   -->
     <div class="w-full flex justify-between item-center py-3 px-5">
         <div class="flex justify-start">
-            <button class="mx-3 my-2 px-2 py-1 border-2 rounded-xl border-gray-400 fill-current text-gray-400 hover:text-green-600 hover:border-green-600">
+            <button id="add-item-btn"
+                    class="mx-3 my-2 px-2 py-1 border-2 rounded-xl border-gray-400 fill-current text-gray-400 hover:text-green-600 hover:border-green-600">
                 <svg class="w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                      stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -24,31 +28,33 @@
             </button>
             <div class="mx-3 my-2 flex justify-start item-center">
                 <label for="" class="self-center">折扣：</label>
-                <input type="number" class="border-2 rounded-l">
+                <input id="discount" type="number" class="border-2 rounded-l">
             </div>
         </div>
         <div class="">
-            <button class="mx-3 my-2 px-5 py-1 border-2 rounded-xl border-gray-400 text-gray-400 hover:text-yellow-700 hover:border-yellow-700">
+            <button id="submit-btn"
+                    class="mx-3 my-2 px-5 py-1 border-2 rounded-xl border-gray-400 text-gray-400 hover:text-yellow-700 hover:border-yellow-700">
                 結算
             </button>
         </div>
     </div>
     <!--    table    -->
-    <ul class="mt-6">
+    <ul id="item-list" class="mt-6">
         <li class="bg-gray-100 flex justify-between items-center py-2 px-5 my-6 shadow-md rounded-xl">
             <div>
                 <label for="">品項：</label>
-                <input type="text" class="border-2 rounded-l">
+                <input name="bean_name" type="text" class="border-2 rounded-l">
             </div>
             <div>
-                <label for="">牌價/每半磅：</label>
-                <input type="number" class="border-2 rounded-l">
+                <label for="">牌價/每半磅(227g)：</label>
+                <input name="price_per_pound" type="number" class="border-2 rounded-l">
             </div>
             <div>
                 <label for="">購買克數：</label>
-                <input type="number" class="border-2 rounded-l">
+                <input name="gram_to_buy" type="number" class="border-2 rounded-l">
             </div>
-            <button class="px-2 py-1 border-2 rounded-xl border-gray-400 fill-current text-gray-400 hover:text-red-400 hover:border-red-400">
+            <button onclick="deleteItem(this)"
+                    class="delete-btn px-2 py-1 border-2 rounded-xl border-gray-400 fill-current text-gray-400 hover:text-red-400 hover:border-red-400">
                 <svg class="w-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
                      stroke="currentColor">
                     <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
@@ -57,6 +63,10 @@
             </button>
         </li>
     </ul>
+    <div>
+        結算價格：<span class="result-show"></span>
+    </div>
 </div>
+<script src="./app.js"></script>
 </body>
 </html>
