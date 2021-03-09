@@ -35,7 +35,6 @@ function deleteItem(dom) {
 
 function getPricePerPoundValue(dom) {
     const price_per_pound = $(dom).find("input[name='price_per_pound']").val();
-    console.log(typeof price_per_pound);
     return price_per_pound;
 }
 
