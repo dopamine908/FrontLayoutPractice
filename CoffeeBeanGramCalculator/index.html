@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.1.2/tailwind.min.css" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+            integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+            crossorigin="anonymous"></script>
+    <title>咖啡克數計算機</title>
+</head>
+<body>
+<div class="bg-yellow-100 flex-col text-xl w-80 mx-auto justify-start items-center flex mt-12 rounded-xl">
+    <div class="my-3 mx-2 py-3 px-2 flex flex-row">
+        <label class="w-3/5" for="final_price">要秤多少元：</label>
+        <input class="w-2/5" id="final_price" type="number" required>
+    </div>
+    <div class="my-3 mx-2 py-3 px-2 flex flex-row">
+        <label class="w-3/5" for="price_per_pounds">半磅牌價(227g)：</label>
+        <input class="w-2/5" id="price_per_pounds" type="number">
+    </div>
+    <div class="my-3 mx-2 py-3 px-2 flex flex-row">
+        <label class="w-3/5" for="discount">折扣(0~1)：</label>
+        <input class="w-2/5" id="discount" type="number">
+    </div>
+    <button class="p-3 my-3 border-2 border-gray-900 rounded-lg" onclick="calculateGram()">計算克數</button>
+</div>
+<script src="./app.js"></script>
+
+</body>
+
+</html>
