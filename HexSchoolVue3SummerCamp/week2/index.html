@@ -147,6 +147,10 @@
                     operator: this.operator,
                     result: calculateResult
                 })
+
+                if (this.results.length > 10) {
+                    this.results.shift();
+                }
             },
             calculate(num1, num2) {
                 let result = 0;
