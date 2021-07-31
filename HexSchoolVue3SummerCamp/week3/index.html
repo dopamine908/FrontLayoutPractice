@@ -27,13 +27,14 @@
         </div>
         <div class="card text-center">
             <ul class="list-group list-group-flush text-left" id="todoList">
-                <li v-for="todo in getTodos()" class="list-group-item">
+                <li v-for="todo in getTodos()" :key="todo.id" class="list-group-item" v-show="!todo.delete">
                     <div class="d-flex">
                         <div class="form-check">
                             <div>
                                 <input id="a" type="checkbox" class="form-check-input"
-                                       @change="todoCheckedToggle(todo)">
+                                       @change="todoCheckedToggle(todo)" v-bind:checked="todo.done">
                                 <label for="a" :class="todoCompleteStyle(todo.done)">{{ todo.content }}</label>
+<!--                                <button class="btn btn-primary" type="button"> 編輯 </button>-->
                             </div>
                         </div>
                         <button type="button" class="btn-close ms-auto remove" @click="deleteTodo(todo)">
@@ -51,9 +52,9 @@
             <div class="card-footer d-flex justify-content-between">
                 <span>有 <span id="taskCount">{{totalTodosCount()}}</span> 筆任務</span>
                 <div>
-                    <a href="#" class="me-3">全部</a>
-                    <a href="#" class="me-3">未完成</a>
-                    <a href="#" class="me-3">已完成</a>
+                    <a href="#" class="me-3" @click="changeFilter('all')">全部</a>
+                    <a href="#" class="me-3" @click="changeFilter('incomplete')">未完成</a>
+                    <a href="#" class="me-3" @click="changeFilter('complete')">已完成</a>
                     <a href="#" @click="deleteAllTodos()">清除所有任務</a>
                 </div>
             </div>
@@ -70,6 +71,7 @@
             return {
                 newTodo: '',
                 todoList: [],
+                filter: 'all'
             }
         },
         methods: {
@@ -88,7 +90,18 @@
                 this.newTodo = '';
             },
             getTodos() {
-                return this.todoList;
+                return this.todoList.filter(todo => {
+                    if (this.filter === 'incomplete') {
+                        return todo.done === false;
+                    } else if (this.filter === 'complete') {
+                        return todo.done === true;
+                    } else {
+                        return true;
+                    }
+                })
+            },
+            changeFilter(filter) {
+                this.filter = filter;
             },
             todoCheckedToggle(todo) {
                 todo.done = !todo.done;
@@ -103,7 +116,6 @@
             deleteTodo(todo) {
                 todo.delete = true;
             },
-            //TODO 已刪除 todo 的渲染未做
             //TODO filter
             totalTodosCount() {
                 return this.todoList.filter(todo => {
