@@ -49,12 +49,12 @@
                 </li>
             </ul>
             <div class="card-footer d-flex justify-content-between">
-                <span>有 <span id="taskCount">1</span> 筆任務</span>
+                <span>有 <span id="taskCount">{{totalTodosCount()}}</span> 筆任務</span>
                 <div>
                     <a href="#" class="me-3">全部</a>
                     <a href="#" class="me-3">未完成</a>
                     <a href="#" class="me-3">已完成</a>
-                    <a href="#">清除所有任務</a>
+                    <a href="#" @click="deleteAllTodos()">清除所有任務</a>
                 </div>
             </div>
         </div>
@@ -102,8 +102,19 @@
             },
             deleteTodo(todo) {
                 todo.delete = true;
-            }
+            },
             //TODO 已刪除 todo 的渲染未做
+            //TODO filter
+            totalTodosCount() {
+                return this.todoList.filter(todo => {
+                    return todo.delete === false;
+                }).length;
+            },
+            deleteAllTodos() {
+                this.todoList.forEach(todo => {
+                    todo.delete = true;
+                })
+            }
         },
     }).mount('#app');
 </script>
