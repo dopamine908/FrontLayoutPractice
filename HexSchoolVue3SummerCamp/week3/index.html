@@ -18,12 +18,12 @@
 
 <body>
 <div id="app">
-    <div id="app" class="container my-3">
+    <div class="container my-3">
         <div class="input-group mb-3">
             <span class="input-group-text">待辦事項</span>
             <input type="text" class="form-control" placeholder="準備要做的任務"
-                   id="newTodo">
-            <button class="btn btn-primary" type="button" id="addTodo">新增</button>
+                   id="newTodo" v-model="newTodo" required>
+            <button class="btn btn-primary" type="button" id="addTodo" @click="createTodo()">新增</button>
         </div>
         <div class="card text-center">
             <ul class="list-group list-group-flush text-left" id="todoList">
@@ -83,7 +83,18 @@
                 todoList: [],
             }
         },
-        methods: {},
+        methods: {
+            createTodo() {
+                if (this.newTodo.length === 0) {
+                    alert('請輸入準備要做的任務');
+                    return;
+                }
+
+                this.todoList.push(this.newTodo);
+                this.newTodo = '';
+            }
+
+        },
     }).mount('#app');
 </script>
 </body>
